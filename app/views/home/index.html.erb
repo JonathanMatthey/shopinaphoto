@@ -1,4 +1,4 @@
-
+Hi...
 <% if flash[:notice] %>
   <p style="color:green"><%= flash[:notice] %></p>
 <% end %>
@@ -7,6 +7,21 @@
   <p style="color:red"><%= flash[:error] %></p>
 <% end %>
 
+
+  <div style="background-color:lightblue;display:block;padding:20px;">
+<hr/>
+ADD IMAGE
+<%= form_for :image, @image, :url => { :controller => "images", :action => "create" }, :html => {:class => "nifty_form"} do |f| %>
+
+
+  <%= f.label :image_url%>:
+  <%= f.text_field :url %>
+
+  <%= submit_tag "Add Image" %>
+<% end %> <!-- end form_for product -->
+<hr/>
+
+  </div>
 <% @images.each do |image| %>
   
   <%= image_tag(image.url) %>
@@ -18,7 +33,7 @@
     $<%= product.price %>
 
   <% end %>
-<hr/>
+    <div style="background-color:lightgreen;display:block;padding:20px;">
 ADD PRODUCT
   <%= form_for :product, @product, :url => { :controller => "products", :action => "create" }, :html => {:class => "nifty_form"} do |f| %>
     <% if @product.errors.any? %>
@@ -45,8 +60,11 @@ ADD PRODUCT
     <%= f.hidden_field :image_id, :value =>  image.id  %>
 
     <%= submit_tag "Create" %>
-  <% end %>
+  <% end %> <!-- end form_for product -->
+</div>
 <% end %>
+
+<hr/>
 <br/>
 <br/>
 <br/>
