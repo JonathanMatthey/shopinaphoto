@@ -1,0 +1,53 @@
+
+<% if flash[:notice] %>
+  <p style="color:green"><%= flash[:notice] %></p>
+<% end %>
+
+<% if flash[:error] %>
+  <p style="color:red"><%= flash[:error] %></p>
+<% end %>
+
+<% @images.each do |image| %>
+  
+  <%= image_tag(image.url) %>
+  
+  <% image.products.each do |product| %>
+    
+    <a target="_blank" href="<%= product.url %>"><%= image_tag(product.image_url) %></a>
+    <%= product.name %>
+    $<%= product.price %>
+
+  <% end %>
+<hr/>
+ADD PRODUCT
+  <%= form_for :product, @product, :url => { :controller => "products", :action => "create" }, :html => {:class => "nifty_form"} do |f| %>
+    <% if @product.errors.any? %>
+    <div id="errorExplanation">
+      <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
+      <ul>
+      <% @product.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+    <% end %>
+
+    <%= f.label :product_name %>:
+    <%= f.text_field :name %>
+    <%= f.label :price %>:
+    <%= f.text_field :price %>
+    <%= f.label :url %>:
+    <%= f.text_field :url %>
+    <%= f.label :image_url %>:
+    <%= f.text_field :image_url %>
+
+
+    <%= f.hidden_field :image_id, :value =>  image.id  %>
+
+    <%= submit_tag "Create" %>
+  <% end %>
+<% end %>
+<br/>
+<br/>
+<br/>
+
