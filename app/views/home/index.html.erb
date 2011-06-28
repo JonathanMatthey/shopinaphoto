@@ -1,4 +1,4 @@
-Hi...
+<h1 style="background-color:black;color:white;padding:40px;margin:40px;text-align:center;font-family:Arial;font-size:20pt;">Gangsters don't kiss, we get old and die rich</h1>
 <% if flash[:notice] %>
   <p style="color:green"><%= flash[:notice] %></p>
 <% end %>
@@ -8,9 +8,9 @@ Hi...
 <% end %>
 
 
-  <div style="background-color:lightblue;display:block;padding:20px;">
-<hr/>
-ADD IMAGE
+  <div style="border-top:4px solid #444; border-bottom:2px solid #ccc; background-color:#eee;display:block;padding:10px;">
+
+ADD NEW PHOTO
 <%= form_for :image, @image, :url => { :controller => "images", :action => "create" }, :html => {:class => "nifty_form"} do |f| %>
 
 
@@ -19,7 +19,7 @@ ADD IMAGE
 
   <%= submit_tag "Add Image" %>
 <% end %> <!-- end form_for product -->
-<hr/>
+
 
   </div>
 <% @images.each do |image| %>
@@ -33,7 +33,9 @@ ADD IMAGE
     $<%= product.price %>
 
   <% end %>
-    <div style="background-color:lightgreen;display:block;padding:20px;">
+  
+  <div style="border-bottom:4px solid #444; border-top:2px solid #ccc; background-color:#eee;display:block;padding:10px;">
+    
 ADD PRODUCT
   <%= form_for :product, @product, :url => { :controller => "products", :action => "create" }, :html => {:class => "nifty_form"} do |f| %>
     <% if @product.errors.any? %>
