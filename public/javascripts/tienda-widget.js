@@ -603,7 +603,7 @@ $(document).ready(function() {
 		console.log(request_params_string);
 		$.ajax({
 	      type: "PUT",
-	      url: 'http://localhost:3000/api/get_items',
+	      url: 'http://'+ location.host+'/api/get_items',
 	// data format should be like this: 
 	      data: request_params_string,
 		  contentType: "application/json",
