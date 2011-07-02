@@ -1,0 +1,2 @@
+Cookies=new function(){this.ac=function(n,v,e,d,p,s){var ed=new Date();ed.setTime(ed.getTime()+((e||5)*60*1000));var cs=escape(n)+"="+escape(v)+"; expires="+ed.toGMTString()+(d?'; domain='+d:'')+(p?'; path='+p:'')+(s?'; secure='+s:'');document.cookie=cs;};this.dc=function(n){if(this.gc(n))this.ac(n,"",-1);};this.gc=function(n){var dc=document.cookie;n+='=';var s=dc.indexOf("; "+n);if(s==-1){s=document.cookie.indexOf(n);if(s!=0)return '';}else s+=2;var e=dc.indexOf(";",s);if(e==-1)e=dc.length;return unescape(dc.substring(s+n.length,e));}};
+

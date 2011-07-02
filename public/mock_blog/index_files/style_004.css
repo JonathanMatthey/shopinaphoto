@@ -1,0 +1,65 @@
+
+
+
+.FIXBOTTOM {padding-top:15px;width:970px;clear:both;background-color:white;font-size:12px;font-family:Arial;}
+.FIXBOTTOM_1 a {color:#393939;text-decoration:none;}
+.FIXBOTTOM_1 a:hover {color:white;background-color:black;}
+.FIXBOTTOM_1 a:hover img, .FIXBOTTOM_WHATSON a:hover img {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);-moz-opacity: 0.8;opacity: 0.8;}
+.FIXBOTTOM_1 #cat_hl_85871 .text a:hover, .FIXBOTTOM_1 #cat_hl_87877 .text a:hover  {color:White;background-color:black;}
+.FIXBOTTOM_1 #cat_hl_85871 .even, .FIXBOTTOM_1 #cat_hl_85871 .odd, .FIXBOTTOM_1 #cat_hl_87877 .even, .FIXBOTTOM_1 #cat_hl_87877 .odd {border-bottom:1px solid #D7D7D7;}
+.FIXBOTTOM_1 #cat_hl_85871 .image a, .FIXBOTTOM_1 #cat_hl_87877 .image a {background-color:transparent;color:transparent;}
+.FIXBOTTOM_1_0 {display:none;background-color:white;height:8px;}
+.FIXBOTTOM_1 {background-image:url(http://thefix.ninemsn.com.au/img/strip/strip_bgtile.gif);background-repeat:repeat-x;background-color:#EEEEEE;padding:16px 0px 0px;overflow : auto;width: 100%;.padding-bottom:10px;overflow:hidden;}
+.FIXBOTTOM_1 .headertitle, .FIXBOTTOM_1 .title {font-weight:bold;}
+.FIXBOTTOM_1 .odd, .FIXBOTTOM_1 .even {background-color:White;width:170px;.width:168px;padding:14px 0px 18px 5px;margin:3px 7px 20px 10px;;float:left;.margin-right:6px;height:270px;}
+.FIXBOTTOM_1 .headertitle {padding-bottom:10px;font-size:19px;padding-left:20px;color:#626262;}
+.FIXBOTTOM_1 .title {clear:both;display:block;padding:0px 15px 5px 0px;}
+.FIXBOTTOM_1 .title a {text-decoration:none;color:black;}
+.FIXBOTTOM_1 .title a:hover {background-color:#393939;color:#FFFFFF;}
+.FIXBOTTOM_1 img {width:136px;}
+.FIXBOTTOM_1 .text {clear:both;display:block;padding-right:15px;}
+.FIXBOTTOM_1 img, .FIXBOTTOM_1 .title, .FIXBOTTOM_1 .text {margin-left:14px;}
+.FIXBOTTOM_WHATSON {float:right;width:316px; padding-top:86px;xborder-top:0px none #666666;margin-right:15px;_margin-right:8px;margin-bottom:20px;} 
+.FIXBOTTOM_WHATSON .orderedItemsIs3{border-top:1px solid #666666;}
+.FIXBOTTOM_WHATSON .odd, 
+.FIXBOTTOM_WHATSON .even {float:left;} 
+.FIXBOTTOM_WHATSON img {border-bottom:4px solid #FF2E59;width:95px;} 
+.FIXBOTTOM_WHATSON .image a:hover img {border-bottom:4px solid #393939;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);-moz-opacity: 0.8;opacity: 0.8;}
+.FIXBOTTOM_WHATSON .headertitle {color:#FFF;font-weight:bold;font-size:18px;padding-top:4px;}
+.FIXBOTTOM_WHATSON span.odd, .FIXBOTTOM_WHATSON span.even {border-top:none;width:95px;float:left;clear:right;}
+.FIXBOTTOM_WHATSON span.odd {margin-left:0px;margin-top:15px;}
+.FIXBOTTOM_WHATSON span.even {margin:15px 15px 0px;}
+.FIXBOTTOM_WHATSON .text {clear:both;display:block;float:left;color:#B4B4B4;width:93px;}
+.FIXBOTTOM_WHATSON .title a {color:white;font-weight:bold;display:block;margin:5px 0px;}
+.FIXBOTTOM_WHATSON .title a:hover {background-color:white;color:black;}
+.FIXBOTTOM_2 {background-image:url(http://thefix.ninemsn.com.au/img/footer/footer_bgtile.gif);background-repeat:repeat-x;background-color:black;float:left;width:100%;}
+.FIXBOTTOM_2 #FOOTER_LOGO {margin-top:20px;margin-left:20px;float:left;}
+.FIXBOTTOM_2 a#FOOTER_LOGO:hover {background-color:transparent;}
+.FIXBOTTOM_2 ul {margin-left:3px;margin-top:10px;}
+.FIXBOTTOM_2 li {list-style-type:none;color:white;padding-bottom:10px;}
+.FIXBOTTOM_2 a { text-decoration:none;}
+.FIXBOTTOM_2 li a {color:white;font-weight:bold;}
+.FIXBOTTOM_2 li a:hover {color:#000;background:#fff;}
+.FIXBOTTOM_FOOTERWRAPPER {float:left;margin-bottom:24px;margin-left:-203px;margin-top:66px;_margin-left:-222px;}
+/* for ie6 only */
+*html .FIXBOTTOM_FOOTERTVSHOWS {width:540px !important;}
+*html .FIXBOTTOM_FOOTERWRAPPER {margin-left:0;float:right;width:350px !important;}
+.FIXBOTTOM_FOOTERWRAPPER  .orderedItemsIs1 {float:left;width:150px;}
+.FIXBOTTOM_FOOTERWRAPPER  .orderedItemsIs1 .image img{margin-top:5px;}
+div.FIXBOTTOM_FOOTERWRAPPER  ul li a:visited {color:white;}
+.FIXFOOTER_LIST a:hover {background-color:white;color:black;}
+.FIXBOTTOM_GAMES {border-top:0px none #666666;margin-bottom:10px;}
+div.FIXBOTTOM_WHATSON .headertitle{padding-bottom:4px;}
+div.FIXBOTTOM_GAMES span.odd, div.FIXBOTTOM_GAMES span.even{clear:none;float:none;width:inherit;} 
+.FIXBOTTOM_GAMES .image{float:left;margin:0 10px 10px 0;}
+.FIXBOTTOM_GAMES .title{float:left;margin-bottom:4px;}
+div.FIXBOTTOM_GAMES .title a{margin:0;}
+div.FIXBOTTOM_GAMES .headertitle a{color:white;}
+div.FIXBOTTOM_GAMES .headertitle a:hover {background-color:white;
+color:black;}
+div.FIXBOTTOM_GAMES .text{clear:none;width:210px;}
+/*CHANGE BG FOR PROMOS*/
+/*
+.FIXBOTTOM_WHATSON{background:url(http://thefix.ninemsn.com.au/img/promo/brought_to_you_by3_243x77.gif) no-repeat 73px 6px;}
+*/
+

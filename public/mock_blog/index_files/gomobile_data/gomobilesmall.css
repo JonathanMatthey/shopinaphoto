@@ -1,0 +1,36 @@
+.gmw-bgimg { display: none; }
+.gmw-largebgimg { display: none; }
+.gmw-title { display: none; }
+
+.gmw-topimg { float:left;
+margin: 10px 12px 0px 12px; display: inline;}
+
+.gomobile-widget { width: 300px; height: 110px; 
+font-family: Arial,Tahoma, Verdana,Helvetica; font-size: 12px;}
+.gomobile-widget .gmw-innerbox { margin: 10px 0px 0px 12px; 
+width: 170px; display: inline; float: left;}
+
+#gmw-panel-enter { float: left; display: inline; margin: 3px 0px 0px 12px; width: 170px;}
+#gmw-panel-thank { float: left; display: none; margin: 3px 0px 0px 12px; width: 170px;}
+#gmw-panel-sorry { float: left; display: none; margin: 3px 0px 0px 12px; width: 170px;}
+
+.gmw-phoneimg { float: right; }
+.gmw-msg-intro { float: left; text-align: left; }
+
+#gmw-panel-thank .gmw-msg-intro { display: none; }
+#gmw-panel-sorry .gmw-msg-intro { display: none; }
+#gmw-panel-thank .gmw-msg { float: left; text-align: left; display: inline; }
+#gmw-panel-sorry .gmw-msg { float: left; text-align: left; display: inline; }
+
+.gmw-inputboxes-msg { float: left; margin-top: 2px; display: inline;}
+#gmw-txtbx-sendsms { height: 11px; width: 100px; float: left; font-size: 11px;}
+#gmw-btn-sendsms { background:transparent url(/img/gomobile/article_smssend.gif) no-repeat scroll left top;
+border-width:0px; color:#FFFFFF;
+float: left; display:inline; font-weight:bold;
+margin-left:4px; height: 17px; width:58px;}
+
+.gmw-msg { display: none; }
+
+.gmw-morelink { float: left; margin-top: 3px; display: inline; text-align: left;}
+.gmw-morelink a { display: block; text-decoration: none;}
+.gmw-morelink a:hover { text-decoration: underline;}

@@ -1,0 +1,51 @@
+#rightJSONVid {.margin-top:10px;}
+html > body #rightJSONVid{width:295px;position:relative}
+#THEFIX_HEADER {width:955px}
+#THEFIX_promo {margin-top:8px;padding-top:20px;.padding-top:0px;}
+#FIXPROMO #cat_hl_85898 {padding-bottom:10px;.padding-bottom:0px}
+
+.FIXBOTTOM_1 {.overflow:hidden}
+.FIXBOTTOM_1_0 {display:block;}
+#FT_Ad {.margin-top:-30px}
+#midcol {background-image:none;padding-top:0px;}
+#t_main {background:transparent url(/img/global/rhc_bg.jpg) repeat-x scroll left top;padding:10px 0;}
+#cat_hl_83513 {padding-top:4px;}
+#cat_hl_83513 li {background:none;padding:2pt 6px 0pt;}
+#THEFIX_HEADER #THEFIX_LOGO {background-image:url(http://thefix.ninemsn.com.au/img/sites/celeb_logo_lge.gif);background-repeat:no-repeat}
+a#THEFIX_LOGO:hover {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);-moz-opacity: 0.8;}
+#searchbox, input#inlineSearchbox {height:14px;}
+#cat_hl_83513 li a {padding:7px 6px}
+
+#WL_inlineSearchBox {width:311px;}
+
+#cat_hl_85898 {width:300px;margin-top:-10px;.margin-top:0px;padding-top:15px;width:289px;padding-left:10px}
+#cat_hl_85898 .even .text {padding-bottom:20px;}
+
+#cat_hl_83513 li:hover a, #cat_hl_83513 li.sfhover a {background-color:black;color:#FF36DE;.padding-bottom:8px;}
+html > body #cat_hl_83513 li:hover a {padding-bottom:8px;}
+body:not(:root:root) #cat_hl_83513 li:hover a {padding-bottom:10px}
+
+#cat_hl_83513 .float {margin-top:-4px;}
+#6019 ul {margin-top:12px;background-color:#FF36DE;}
+#cat_hl_83513 li ul {border:none;background-color:black;left:5px;top:37px;}
+#cat_hl_83513 li ul li a:hover {background-color:black;color:white}
+#cat_hl_83513 li ul.float li a {background-color:black;color:#FF36DE}
+#cat_hl_83513 li ul.float li a:hover {color:white}
+
+#cat_hl_85871 .text a {font-weight:normal}
+
+#fo_leaderboard_item_popup .fo_leaderboard_close {margin-right:80px;}
+#fo_leaderboard_item_popup .fo_leaderboard_content {margin-right:80px;}
+
+/* for ie6 only */
+*html #cat_hl_220750{ overflow:hidden;}   
+*html #videoDescriptionDiv {margin-top:-645px;} 
+*html #videoPlayerContainer{margin:55px 10px 20px 10px;} 
+*html .videoItemOver{filter:alpha(opacity=60);opacity: 0.6;-moz-opacity:0.6;}
+*html #videos .videoItem{clear:both;} 
+
+
+
+
+
+

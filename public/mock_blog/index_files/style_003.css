@@ -1,0 +1,42 @@
+
+
+
+#THEFIX_HEADER {background-color:black;font-size:11px;font-family:Arial;padding-top:10px;padding-left:15px;
+    background-image:url(http://thefix.ninemsn.com.au/img/sites/header_bgtile.gif);background-repeat:repeat-x;height:100px;}
+#THEFIX_HEADER #THEFIX_HEADERTOP a {background-repeat:no-repeat;display:block;height:20px;pointer:cursor;float:left;margin-right:30px;background-position:0 3px}
+#THEFIX_HEADER #THEFIX_HEADERTOP a#THEFIX {background-image:url(http://thefix.ninemsn.com.au/img/sites/fix_logo_sml.gif);width:65px;}
+#THEFIX_HEADER #THEFIX_HEADERTOP a:hover#THEFIX {background-position:0 -18px}
+#THEFIX_HEADER #THEFIX_MOVIES {background-image:url(http://thefix.ninemsn.com.au/img/sites/movie_logo_sml.gif);width:83px;}
+#THEFIX_HEADER #THEFIX_HEADERTOP a:hover#THEFIX_MOVIES {background-position:0 -18px}
+#THEFIX_HEADER #THEFIX_MUSIC {background-image:url(http://thefix.ninemsn.com.au/img/sites/music_logo_sml.gif);width:87px;}
+#THEFIX_HEADER #THEFIX_HEADERTOP a:hover#THEFIX_MUSIC {background-position:0 -18px}
+#THEFIX_HEADER #THEFIX_TV {background-image:url(http://thefix.ninemsn.com.au/img/sites/tv_logo_sml.gif);width:52px;}
+#THEFIX_HEADER #THEFIX_HEADERTOP a:hover#THEFIX_TV {background-position:0 -18px}
+#THEFIX_HEADER a#THEFIX_CELEBRITIES {background-image:url(http://thefix.ninemsn.com.au/img/sites/celeb_logo_sml.gif);width:126px;background-position:0 2px;margin-top:1px;}
+#THEFIX_HEADER #THEFIX_HEADERTOP a:hover#THEFIX_CELEBRITIES {background-position:0 -18px}
+#THEFIX_HEADER #THEFIX_LOGO {background-repeat:no-repeat;width:280px;float:left;clear:left;display:block;height:42px;margin-top:4px;.margin-top:-21px;}
+#THEFIX_HEADER #THEFIX_HEADERTOP_RIGHT {float:right;color:#999999}
+#THEFIX_HEADER #THEFIX_HEADERTOP_RIGHT_1 {float:left;font-size:9px;margin-top:8px;}
+#THEFIX_HEADER #THEFIX_HEADERTOP_RIGHT_2 {width:120px;margin:-10px 15px;background-color:#999999;height:28px;float:left}
+#THEFIX_HEADER #THEFIX_HEADERMID {padding-top:33px;*padding-top:27px;}
+#THEFIX_HEADER #THEFIX_HEADERMID #THEFIX_HEADERMID_RIGHT {float:right;width:322px;background-color:none;margin-top:38px; *margin-top:25px;}
+#THEFIX_HEADER #THEFIX_HEADERMID #THEFIX_HEADERMID_RIGHT A {float:right;font-weight:normal; margin-right:45px; color:#fff; font-size:11px; padding-left:10px; background:url(/img/header/new/icn_makehomepage.gif) no-repeat 0px 0px; text-decoration:none; }
+#THEFIX_HEADER #THEFIX_HEADERMID #THEFIX_HEADERMID_RIGHT A:hover { font-weight:normal;background:url(/img/header/new/icn_makehomepage.gif) no-repeat 0px -14px;}
+#WL_inlineSearch {background-color:white}
+#THEFIX_BETA {float: right; width:249px; margin-right:15px; margin-bottom:14px;}
+#THEFIX_BETA a {float:left; text-decoration:none; width:249px;height:60px; background:url(/img/header/new/sub-brands-button.gif) no-repeat 0px 0px; }
+#THEFIX_BETA a:hover {background:url(/img/header/new/sub-brands-button.gif) no-repeat 0px -60px; }
+body {
+}
+#THEFIX_HEADER #THEFIX_HEADERTOP a#FIXPLAY {background:transparent url(http://thefix.ninemsn.com.au/img/home_sprite.gif) no-repeat -647px -186px; height:22px; text-decoration:none; width:190px;}
+#THEFIX_HEADER #THEFIX_HEADERTOP a#FIXPLAY:hover {background-position:-647px -214px;}
+
+#WL_inlineSearchBox {
+background:#000000;
+float:right;
+height:32px;
+margin-top:-3px;
+padding-right:9px;
+text-align:right;
+width:319px; }
+

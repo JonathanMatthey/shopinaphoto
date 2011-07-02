@@ -12,6 +12,7 @@ gem 'sqlite3'
 
 gem 'inherited_resources'
 gem 'has_scope'
+gem 'ruby-debug'
 
 # Deploy with Capistrano
 # gem 'capistrano'

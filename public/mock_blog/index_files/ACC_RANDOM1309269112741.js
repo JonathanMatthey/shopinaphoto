@@ -1,0 +1,1 @@
+document.writeln("<img src=\"http://ads.ninemsn.com.au/accipiter/filter.gif\" alt=\"\" border=\"0\">");document.close();

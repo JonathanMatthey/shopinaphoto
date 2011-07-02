@@ -1,0 +1,270 @@
+/*Live Search box*/
+#searchbox, #inlineSearchbox
+{
+	height:22px;
+	padding:3px;
+	background-color:#fff;
+	font-size:11px;
+}
+#WL_tabs
+{
+	color:#B9B9B9;
+	padding-left:4px;
+	font-family:Arial;
+	font-size:11px;
+}
+#WL_tabs a
+{
+	text-decoration:none;
+}
+
+
+/*Live Content Match*/
+.WebAdsResultItemDiv
+{
+	margin: 10px 1px 0 0;
+	text-align: left;
+	cursor:pointer;
+}
+.WebAdsHeader
+{
+	color: #444444;
+	margin: 10px 0 0 0;
+	font-size: 100%;
+	text-align: left;
+}
+.WebAdsResultLink
+{
+	display: block;
+	word-wrap: break-word;
+	font-size: 118%;
+	margin: 0;
+	color: #0066a7;
+}
+.WebAdsResultDesc
+{
+	color: #444444;
+	font-size: 100%;
+	margin: 0;
+}
+.WebAdsResultDisplayLink
+{
+	display: block;
+	color: #36a200;
+	font-size: 100%;
+	font-style:italic;
+	margin: 0;
+	word-wrap: break-word;
+}
+
+
+/*Live Inline Widget*/
+#WL_inlineSearchBox
+{
+	position:relative;
+	z-index:65534;
+}
+#FloatPaneDiv
+{
+	position:absolute;
+	display: none;
+	background-color: White;
+	font-family: Verdana, Tahoma, Arial, Sans-Serif;
+	font-size: 11px;
+	z-index: 65535;
+}
+#ScopeDiv
+{
+	float: left;
+}
+#ScopeClose
+{
+	float:right;
+}
+#ScopeClose a, #ScopeClose a img
+{
+	border:none;
+}
+#ScopeClose a:hover
+{
+    text-decoration:none;
+    background:transparent;
+}
+#ScopeBarDiv
+{
+	height: 34px;
+}
+#LogoImage
+{
+	margin:6px 20px 0 5px;
+}
+#CloseImage
+{
+	margin: 0 8px 2px 0;
+	cursor: pointer;
+}
+#poweredBy
+{
+	position:relative;
+	top:-8px;
+}
+#WebLoadingMsg
+{
+	float:left;
+	padding:10px;
+}
+.ScopeButtonDiv
+{
+	border-right: #b4c0c1 1px solid;
+	float: left;
+	padding: 4px;
+}
+.ScopeButton
+{
+	float: left;
+	color: #444444;
+	cursor: pointer;
+	padding: 6px 12px;
+}
+.ScopeButtonSelected
+{
+	float:left;
+	background-color: #ffffff;
+	border: #b4c0c1 1px solid;
+	color: #444444;
+	cursor: pointer;
+	font-weight: 600;
+	padding: 5px 12px;
+}
+#ResultViewDiv
+{
+	width: 100%;
+	background-color: White;
+	font-family:Arial;
+	font-size:12px;
+}
+#ResultViewDiv a
+{
+	text-decoration:none;
+}
+.WebResultDivNoAds
+{
+	float: left;
+}
+.WebResultDivAds
+{
+	float: left;
+}
+#WebResultHeaderNumberDiv
+{
+	color: #444444;
+	text-align:center;
+	margin: 8px;
+}
+#WebResultViewDiv
+{
+	overflow: hidden;
+	overflow-y: auto; /* IE & Firefox only */
+	scrollbar-3dlight-color: #c7c7c7;
+	scrollbar-arrow-color: #4a95c9;
+	scrollbar-face-color: #e9e9e9;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-track-color: #f9f9f9;
+}
+.WebResultPageDivNoAds
+{
+	display: inline;
+}
+.WebResultPageDivAds
+{
+	display: inline;
+}
+.WebResultItemDivNoAds
+{
+	margin: 8px 8px 12px;
+}
+.WebResultItemDivAds
+{
+	margin: 8px 8px 12px;
+}
+.WebResultLink
+{
+	font-size: 118%;
+	margin: 0;
+	color: #0066a7;
+}
+.WebResultDesc
+{
+	color: #444444;
+	font-size: 100%;
+	margin: 0;
+}
+.WebResultDisplayLink
+{
+	color: #36a200;
+	font-size: 100%;
+	margin: 0;
+	word-wrap: break-word;
+}
+#WebResultFooterDiv
+{
+	color: #0066a7;
+	height: 28px;
+	xwidth: 100%;
+}
+#WebResultFooterLiveDiv
+{
+	float: left;
+	margin: 8px 0 0 8px;
+}
+#WebResultFooterDiv a
+{
+	color: #0066a7;
+}
+#WebResultFooterPageDiv
+{
+	float: right;
+	margin: 8px 8px 0 0;
+}
+.WebResultFooterPageLink
+{
+	color: #0066a7;
+	cursor: pointer;
+	margin: 0 0 0 5px;
+}
+.WebResultFooterCurrentPageLink
+{
+	color: #aaaaaa;
+	margin: 0 0 0 5px;
+	font-weight: bold;
+}
+.WebResultFooterPrevPageImage
+{
+	cursor: pointer;
+	vertical-align: bottom;
+}
+.WebResultFooterNextPageImage
+{
+	cursor: pointer;
+	vertical-align: bottom;
+	margin: 0 0 0 5px;
+}
+#WebAdsDiv
+{
+	background-color:#F7F7F7;
+	margin:5px;
+	padding:8px;
+	float: right;
+	overflow: hidden;
+	width: 25%;
+}
+.WebResultItemDiv
+{
+	margin: 8px 8px 12px;
+}
+.WLpaneMsg
+{
+	font-size:118%;
+	margin:8px 8px 12px;
+}
