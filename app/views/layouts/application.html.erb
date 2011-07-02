@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Instantblogstore</title>
+<meta charset="utf-8">
+
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+     Remove this if you use the .htaccess -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+  <title>StyleSpotter</title>
+  <meta name="description" content="latest styles spotted">
+  <meta name="author" content="101">
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
+
 </head>
+
 <body>
 
-<%= yield %>
+  <div id="container">
+    <header>
+		<div id="header">
+			<h1 >StyleSpotter</h1>
+		</div>
+		<% if flash[:notice] %>
+		  <p style="color:green"><%= flash[:notice] %></p>
+		<% end %>
+
+		<% if flash[:error] %>
+		  <p style="color:red"><%= flash[:error] %></p>
+		<% end %>
+    </header>
+    <div id="main" role="main">
+
+		<%= yield %>
+
+    </div>
+    <footer>
+
+    </footer>
+  </div> <!--! end of #container -->
+
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+  <![endif]-->
+
+
+  <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+    s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script>
 
 </body>
 </html>

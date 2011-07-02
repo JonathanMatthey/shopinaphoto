@@ -1,0 +1,152 @@
+/* Pluck - Comment box < */
+#pluckSitelife{
+	margin:1em 0;
+}
+#pluckSitelife .pluck-nocomm-logo{
+	display:none;
+}
+#pluckSitelife  div.SiteLife_Login {
+	background:#f1f1f2;
+}
+#pluckSitelife .pluck-comm-first-to-comment{
+	left:auto;
+	right:0;
+}
+#pluckSitelife p.pluck-comm-calltoaction,
+#pluckSitelife .pluck-comm-commentcount{
+	padding-bottom:0;
+}
+#pluckSitelife .pluck-comm-commentcount-actions p{
+	margin-top:9px;
+}
+#pluckSitelife .pluck-login-comment-pluck-logo{
+	padding:0;
+}
+#pluckSitelife .pluck-login-comment-input{
+	margin-left:0;
+}
+#pluckSitelife .pluck-login-comment-input .pluck-login-comment-calltoaction{
+	margin:0;
+}
+/* > */
+
+.Comments_Container *{
+font-family:verdana,arial,sans-serif;
+}
+
+.Comments_AwaitingApproval{
+border:2px solid #3aa13d;
+color:#3aa13d;
+font-size:11px;
+margin-bottom:10px;
+padding:5px;
+}
+.SiteLife_Login{
+	font-size:0.785em;
+	text-align:center;
+}
+.SiteLife_Login a{
+color:#000;
+text-decoration:none;
+}
+
+.SiteLife_Login a:hover{
+text-decoration:underline;
+}
+
+/* Sitelife > Add a comment */
+div.Comments_AddHeading{
+border-top:1px solid #ee2827;
+background:transparent url(http://images.mirror.co.uk/collections/m4_general/i_post_coments.gif) no-repeat 0 50%;
+font-size:14px;
+font-family:verdana;
+font-weight:100;
+line-height:30px;
+padding:0 0 0 20px;
+}
+
+div.Comments_AddTextarea{
+background:transparent url(http://images.mirror.co.uk/collections/m4_general/bg_dotted_red.gif) repeat-x 0 0;
+padding-top:10px;
+}
+
+div.Comments_AddTextarea textarea{
+border:1px solid #999;
+font-family:verdana;
+font-size:11px;
+height:95px;
+width:350px;
+}
+
+div.Comments_Submit{
+width:350px;
+text-align:right;
+}
+
+div.Comments_Submit input{
+background:#ee2827;
+border:0;
+color:#fff;
+font-size:11px;
+padding:3px;
+text-transform:uppercase;
+}
+
+/* Persona Profile */
+.PersonaProfile_Body{
+margin:0;
+padding:0;
+width:100% !important;
+}
+
+.PersonaProfile_Body input, .PersonaProfile_Body textarea{
+font-family:verdana, sans-serif; 
+font-size:11px; 
+line-height:1.2em;
+}
+
+.Persona_Main{
+width:100%;
+}
+
+.ProfileEdit_TableFieldName{
+width:210px!important;
+}
+
+.ProfileEdit_TableField{
+width:auto!important;
+}
+
+.ProfileEdit_Textarea{
+width:350px;
+}
+
+.ProfileEdit_BigInput{
+width:350px;
+}
+
+.ProfileEdit_mm input{
+width:30px;
+}
+
+.ProfileEdit_dd input{
+width:30px;
+}
+
+.ProfileEdit_yyyy input{
+width:50px;
+}
+
+/* Upload input */
+.ProfileEdit_Caption{
+display:none;
+}
+
+.ProfileEdit_AvatarPickerTable img{
+	height:60px;
+	width:60px;
+}
+/* xp:248884 Pluck4.5 < */
+#wrap .pluck-comm-socialoptions{display:none;}
+/* xp:248884 Pluck4.5 > */
+

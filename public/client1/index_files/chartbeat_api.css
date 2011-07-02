@@ -1,0 +1,10 @@
+	.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
+
+	.post.now_trending{margin:13px 0px 0px 34px; padding:4px 1px 2px 9px;border:1px solid #DDA;background:#FFC;line-height:22px;position:relative;border-radius: 2px 2px;width:910px}
+	.post.now_trending .minor{color:#789;float:left;margin-right:15px;font-size:11px}
+	.post.now_trending .entry-title{font-size:18px;font-weight:normal;line-height:1.05em;margin:0;padding:0px;float:left;width:650px}
+	.post.now_trending .entry-title a:hover{color:#222;text-decoration:none}
+	.post.now_trending .post_share{float:right;}
+
+	.post.now_trending .wdt_button1{float:right; margin-right: 25px; width:80px;height: 24px; }
+	.post.now_trending .wdt_button2{float:right; padding-top:1px; width:110px;}

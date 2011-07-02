@@ -1,0 +1,1 @@
+_ate.ad.hpr({"urls":["http://xcdn.xgraph.net/15530/db/xg.gif?pid=15530&sid=10001&type=db&p_bid=4e0eb9895813a000"],"segments" : ["1OD"],"loc": "MDAwMDBPQ0FVVkkxNDIxMzI0OTAwMDAwMDAwVg=="})

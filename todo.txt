@@ -1,0 +1,12 @@
+Prototype v1
+
++ get 3 client index pages
+- add the shops to the pages linked to back end
+- design stylespotter index
+- design stylespotter celeb pages
+- design stylespotter photo page
+- design stylespotter admin page
+
+- email capture
+- click reports
+

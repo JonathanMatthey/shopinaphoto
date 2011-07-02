@@ -1,0 +1,108 @@
+/*
++----------------------------------------------------------------+
+|																							|
+|	WordPress 2.8 Plugin: WP-Polls 2.50										|
+|	Copyright (c) 2009 Lester "GaMerZ" Chan									|
+|																							|
+|	File Written By:																	|
+|	- Lester "GaMerZ" Chan															|
+|	- http://lesterchan.net															|
+|																							|
+|	File Information:																	|
+|	- Polls CSS File																	|
+|	- wp-content/plugins/wp-polls/polls-css.css								|
+|																							|
++----------------------------------------------------------------+
+*/
+
+
+.wp-polls-archive {
+	 background-color: #ffffff;
+}
+.wp-polls, .wp-polls-form {
+
+}
+.wp-polls ul li, wp-polls-ul li, .wp-polls-ans ul li {
+	text-align: left;
+	background-image: none;
+	display: block;
+}
+.wp-polls ul, .wp-polls-ul, .wp-polls-ans ul  {
+	text-align: left;
+	list-style: none;
+	float: none;
+}
+.wp-polls ul li:before, wp-polls-ul li, .wp-polls-ans ul li:before, #sidebar ul ul li:before {
+	content: '';
+}
+.wp-polls IMG, .wp-polls LABEL , .wp-polls INPUT, .wp-polls-loading IMG, .wp-polls-image IMG {
+	display: inline;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.wp-polls-ul {
+	padding: 0px;
+	margin: 0px 0px 10px 10px;
+}
+.wp-polls-ans {
+	width:100%;
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+
+}
+.wp-polls-loading {
+	display: none;
+	text-align: center;
+	height: 16px;
+	line-height: 16px;
+}
+.wp-polls-image {
+	border: 0px;
+}
+.wp-polls .Buttons {
+	border:1px solid #c8c8c8;
+	background-color: #f3f6f8;
+}
+/* Polls Archive Paging */
+.wp-polls-paging {
+    float: right;
+    /*width: 530px;*/
+    font-family: arial;
+    font-size: 10px;
+    text-align: right;
+    color: #000000;
+    padding-top: 10px;
+}
+.wp-polls-paging a, .wp-polls-paging span {
+	text-decoration: none;
+	border: 1px solid #BFBFBF;
+	padding: 2px 3px;
+	margin: 1px;
+
+}
+.wp-polls-paging a:visited {
+
+}
+.wp-polls-paging a:hover {
+	border: 1px solid #000000;
+	color: #000000;
+
+}
+.wp-polls-paging a:active {
+
+
+}
+.wp-polls-paging span.pages {
+
+
+}
+.wp-polls-paging span.current {
+	font-weight: bold;
+    background-color: #D2232A;
+    color: #ffffff;
+}
+.wp-polls-paging span.extend {
+
+}

@@ -1,0 +1,193 @@
+/*1309166670,169776068*/
+
+.pagerpro_container{float:right;margin:0 0 0 0;padding:3px 0 4px 0;width:200px}
+.pagerpro{float:right}
+.pagerpro .pagerpro_li{display:inline}
+.pagerpro .pagerpro_a{padding:3px;padding-bottom:2px}
+.pagerpro .pagerpro_a:hover{background-color:#3b5998;border-color:#d8dfea;border-bottom:1px solid #3b5998;color:#fff;text-decoration:none}
+#facebook .profile .pagerpro .pagerpro_a:hover{color:#fff}
+.pagerpro .current .pagerpro_a{border-color:#3b5998;border-bottom:2px solid #3b5998;color:#3b5998;font-weight:bold;padding-left:2px;padding-right:2px}
+.pagerpro .current .pagerpro_a:hover{background-color:#3b5998;color:#fff}
+.pagerpro .disabled{color:#999;cursor:default;background:transparent;border:none}
+.footer_bar .pagerpro .pagerpro_a{border-top:2px solid white;padding-top:1px;padding-bottom:0}
+.footer_bar .pagerpro .pagerpro_a:hover{border-bottom:2px solid #3b5998;border-top:2px solid #3b5998}
+.footer_bar .pagerpro .current .pagerpro_a,
+.footer_bar .pagerpro .current .pagerpro_a:hover{border-bottom-color:#fff;border-top:2px solid #3b5998}
+body.external{background:transparent none repeat scroll 0 0;margin:0;padding:0}
+.wallkit_frame{}
+.wallkit_frame .inputsubmit-disabled{background-color:#fff;border-bottom:1px solid #999;border-right:1px solid #999;color:#666}
+.wallkit_frame .pager{overflow:hidden;text-align:right;padding-bottom:10px}
+.wallkit_post{margin:10px 10px 5px 0;padding-bottom:5px;border-bottom:1px solid #d8dfea}
+.wallkit_post .wallkit_profilepic{position:absolute
+width:50px}
+.wallkit_post .wallkit_postcontent{margin-left:50px;padding-left:10px}
+.wallkit_post .wallkit_postcontent h4{padding:0 5px 3px 0;font-weight:normal}
+.wallkit_post .wallkit_postcontent h4 .wall_time{margin-left:1px;font-size: 9px;padding:2px 0 0 4px;color:#808080}
+.wallkit_post .wallkit_postcontent h4 .time{display:none}
+.wallkit_post .wallkit_postcontent h4 a{font-weight:bold}
+.wallkit_post .wallkit_postcontent div{padding:3px 0}
+.wallkit_post .wallkit_profilepic img{display:block;float:left}
+.wallkit_post div.wallkit_actionset{font-size: 9px;padding-bottom:3px}
+.wallkit_title{font-size: 16px;font-weight:bold;overflow:hidden}
+.wallkit_title div.title_left{float:left}
+.wallkit_subtitle{padding:3px 5px 2px 0;font-size: 11px;font-weight:normal}
+.wallkit_form{padding:5px 10px 5px 0}
+.wallkit_form .editsettings{float:right;margin:5px}
+.wallkit_form .inputtext{display:block;margin:5px 0 5px 0}
+.wallkit_form .inputsubmit{margin:0 5px 0 0;display:inline}
+.wallkit_form div.text_spacer{padding-right:8px}
+.wallkit_form textarea{overflow:hidden;display:inline;height:44px;padding:3px;margin-top:5px;width:100%}
+.wallkit_form .toggleform{text-align:center;margin:5px 0;padding-left:10px;padding-right:18px}
+.wallkit_form .login{text-align:center;margin:5px 0}
+.wallkit_form .hidden{display:none}
+.wallkit_form .hidden textarea{display:none}
+.wallkit_form .hidden .inputsubmit{display:none}
+.wallkit_form div.loading_page{position:absolute;padding-top:60px;margin-left:19px}
+.wallkit_form div.pic_hidden{padding-top:10px}
+.wallkit_form div.profile_pic{position:absolute}
+.wallkit_form .composer{padding:0 0 0 55px;background:transparent none repeat scroll 0 0;border:0}
+.wallkit_form div.connect_area{margin:5px}
+.wallkit_form div.connect_area div.nameemail{float:left}
+.wallkit_form div.connect_area div.or{float:left;font-size:13pt;font-weight:bold;padding:15px 30px}
+.wallkit_form div.connect_button_text .hint_text{display:inline}
+.wallkit_form div.connect_button_text .anon{display:block;width:169px}
+.wallkit_form div.connect_area div.connect_button_text{float:left}
+.wallkit_form div.connect_area div.connect_button_text .connect_button{margin:5px 10px 5px 0;vertical-align:middle}
+.wallkit_form div.post_area{float:right;padding:5px 0 0 0}
+.wallkit_form div.post_area .uiButton{margin:0 0 0 10px}
+.wallkit_form div.post_area div.connected{display:inline}
+.wallkit_form .show_not_connected div.post_area div.connected{display:none}
+.wallkit_form div.post_button{margin:10px}
+.wallkit_form .show_connected .connect_area{display:none}
+.wallkit_form .show_connected .not_connected{display:none}
+.wallkit_form .show_not_connected .connected{display:none}
+.wallkit_subtitle .subtitle_left{float:left;overflow:visible;width:150px}
+.wallkit_subtitle .pager{float:right}
+.wallkit_subtitle .post_counter{float:right;margin:0 5px}
+.wallkit_subtitle .subtitle_action{display:inline;float:right}
+div.wallkit_subtitle div.subtitle_right .left{float:right}
+.wallkit_subtitle span.pipe{float:right}
+.wallkit_form .wall_captcha{margin:0 5px;padding-bottom:8px}
+.wallkit_form .wall_captcha #captcha{text-align:left}
+.wallkit_form .wall_captcha #captcha h3{font-size: 11px;font-weight:bold}
+.wallkit_form .UIContentBox .wall_captcha #captcha h3{float:left;background:#f7f7f7;padding-right:5px;margin-bottom:5px}
+.wallkit_form .wall_captcha #captcha .divider{border-bottom:solid 1px #ccc;display:block;margin-bottom:5px;padding-top:2px}
+.wallkit_form .UIContentBox .wall_captcha #captcha .divider{line-height:1px;margin-bottom:10px;padding-top:0;height:10px}
+.wallkit_form .wall_captcha #captcha fieldset{text-align:left;width:auto;min-width:0;margin-left:2px}
+.wallkit_form .wall_captcha #captcha #captcha_response{border:1px solid #bdc7d8;padding:3px}
+.wallkit_form .wall_captcha #captcha #captcha_whatsthis{display:none}
+.wallkit_form .wall_captcha #captcha .captcha_optout{display:none}
+.wallkit_form .wall_captcha #captcha .captcha_challenge{padding:5px 0}
+.wallkit_form .wall_captcha #captcha .captcha_challenge .recaptcha_text{width:300px}
+.wallkit_form .wall_captcha #captcha .captcha_challenge #recaptcha_image{margin:5px 0 0 0}
+.mu-connect-disable-logout .logout{display:none}
+.newalbum .formbuttons{padding:0 0 0 215px;text-align:left}
+.newalbum .formbuttons input{margin:0}
+#publish_formbuttons{margin:0 10px 25px}
+#upload_status_area{overflow:hidden}
+#changessaved .status{margin-top:10px;margin-bottom:0;text-align:left}
+.photo_list{overflow:hidden}
+.photo_list .go_back{padding:10px}
+.photo_list .loading{text-align:center;padding:1em}
+.photo_list .album td{width:150px;text-align:center;vertical-align:middle}
+.photo_list .album img{background:white;padding:4px;border:solid 1px #ccc}
+.photo_list .album img:hover{border:solid 1px #3b5998}
+#createalbum{float:left;width:200px;padding:10px 10px;text-align:left}
+.sharelink{text-align:center;background:white;border:solid 1px #d8dfea;padding:5px;margin:5px 0}
+.photo .uiPager{border-top:none;padding:0}
+.single_photo_header{margin:8px 0 9px;padding:0}
+.single_photo_header h2{color:#192b46;font-size: 16px;padding-bottom:1px}
+.single_photo_header h4{float:left;font-weight:normal;padding:3px 0 4px}
+#photoborder{background:#f2f2f2;margin:8px 0 17px 0;position:relative;text-align:center}
+#photoborder #myphoto{background-color:#fff;float:left}
+#photoborder a #myphoto{cursor:pointer;cursor:hand}
+#photoborder #myphotolink{-moz-outline:none;display:table;margin:auto}
+.photo_container{display:inline-block;margin:0 auto;position:relative;vertical-align:bottom;zoom:1}
+#photoinfo{margin:14px 10px 25px 10px}
+#photodate{margin:0;padding:4px 8px 8px 10px;float:left;color:#777}
+#photoinalbum{color:#808080;line-height:15px;width:181px}
+#phototags{line-height:15px;padding-bottom:1px}
+#phototags em{color:#808080;font-style:normal}
+#photocomment{padding-top:10px}
+#photocomment .actions a small{color:#3b5998}
+#photocomment .actions a:hover{text-decoration:underline}
+#photoaddcomment{float:left;clear:left;margin:10px 0}
+#photoaddcomment h4{border:none;white-space:nowrap}
+#comment_error{color:#966;display:none;padding-left:8px}
+#rightcolumn{width:184px;padding-bottom:7px}
+#rightcolumn .share_and_hide{padding-left:2px;padding-bottom:10px}
+#photoactions{padding-top:10px}
+.footer #photoactions{clear:right;padding-top:2px;margin-bottom:20px}
+#photoactions a{border-bottom:1px solid #d8dfea}
+#photoactions a,#photoactions .action_link{display:block;clear:both;padding:2px 3px}
+#photoactions a:hover,#photoactions .action_link:hover{text-decoration:none;background:#3b5998;color:#fff}
+#rotateleft,#rotateright{cursor:pointer;width:30px;float:left;position:relative}
+#rotateright{text-align:right}
+#rotateleft a{background:white url(http://static.ak.fbcdn.net/rsrc.php/v1/z2/r/_IX9ihaVFpg.gif) no-repeat 2px 2px;height:26px;border-bottom:1px solid #fff}
+#rotateleft a:hover{background:#3B5998 url(http://static.ak.fbcdn.net/rsrc.php/v1/z4/r/YMPqumRb_-C.gif) no-repeat 2px 2px}
+#rotateright a{height:26px;background:white url(http://static.ak.fbcdn.net/rsrc.php/v1/z0/r/pJS0S6kOaNI.gif) no-repeat 3px 2px;border-bottom:1px solid #fff}
+#rotateright a:hover{background:#3B5998 url(http://static.ak.fbcdn.net/rsrc.php/v1/zx/r/qAjhwbqxvdd.gif) no-repeat 3px 2px}
+#rotateleft a:hover,#rotateright a:hover{text-decoration:none;color:#fff}
+#convertmobile{padding:10px 10px 0;text-align:center;width:300px}
+#convertmobile h4{text-align:center}
+#convertmobile p{font-size: 11px;text-align:center}
+.movephoto select{width:117px}
+.editalbum.newalbum #newalbum{padding:20px 0 20px 0}
+.editalbum .tab_bar{margin:0 0 10px}
+#newalbum .inputtext,#newalbum textarea{width:250px}
+#newalbum .inputsubmit,#newalbum .inputbutton{width:auto;margin-top:15px}
+#files div{margin:5px 0 8px 0}
+#uploading{margin:20px auto;width:400px}
+#noactive{margin:15px 0 0 0;text-align:center}
+#iphoto_suggestion{margin:12px 0 0 0;text-align:center}
+#mobile_suggestion{margin:4px 0 0 0;text-align:center}
+#beforeupload{margin-bottom:20px}
+#photodisclaimer{margin:5px 0 15px 0;text-align:center}
+#photoagree{text-align:left;margin:10px 0 15px 0;width:300px}
+#photoagree input{width:auto}
+.formbuttons small{color:#666}
+#frame{width:62px;height:62px;position:absolute;cursor:crosshair;background:url(http://static.ak.fbcdn.net/rsrc.php/v1/zk/r/l45gP67-5wG.gif) left top}
+.photosearch .photo_table{margin-bottom:20px;border:1px solid #bbb;background:#f7f7f7;overflow:hidden;position:relative}
+.photosearch .photo_table.photo_table_last{margin-bottom:0}
+#ieinstallation,#canceledactivex{margin:0 20px}
+.status_holder{padding:10px 0 0;margin:0 0 10px}
+.status_holder_album,.status_holder_photo{padding:10px 0 0;margin:0}
+.status_holder .status,.status_holder #error{margin-bottom:0}
+#tagging_instructions{margin:0 0 10px 0;padding:10px;border:solid 1px #ffe222;background:#fffbe2}
+.footer_bar{background-color:#fff;border:0;padding-bottom:1px}
+#public_link_photo{clear:both;color:#000;font-size: 9px;padding:5px 5px;text-align:center}
+#public_link_photo span{color:#000;display:block;font-size: 11px}
+.context_label{color:#808080}
+#photo_badge .img{background-color:transparent;border:none;margin:0 6px -2px 0;padding:0}
+#photoborder #load_indicator{background:url(http://static.ak.fbcdn.net/rsrc.php/v1/z9/r/jKEcVPZFk-2.gif) center center no-repeat;height:100px;width:760px;position:relative;margin-bottom:-100px;top:0;left:0;z-index:5;display:none}
+#photoborder #load_indicator.loading{display:block}
+.photo_metadata{padding-bottom:20px;text-align:left}
+.photo_metadata .left_metadata{width:530px}
+.photocaption_edit textarea{font-size: 11px;line-height:13px;margin:0 0 2px 0;padding:0}
+.photocaption_edit .uiMentionsInput .highlighter{font-size: 11px;overflow:hidden;padding:4px 4px 0 4px;left:2px;top:2px;width:auto}
+.photocaption_edit .mentionsTypeahead{margin-bottom:5px}
+.photocaption_edit .mentionsTypeahead .wrap{padding:5px}
+.photocaption_edit .uiMentionsInput .highlighter div{line-height:13px;text-align:left}
+.photocaption_text{line-height:15px;margin-bottom:14px}
+.photocaption_text:empty{margin-bottom:0}
+.photo_keyboard_dialog .generic_dialog_popup{left:-120px}
+.photo_spam_undo_text{padding-top:10px}
+#photocaption_parent.edit .toggle_edit_caption{height:18px;margin:2px 0 0 0;width:18px}
+.photocaption_text,
+.photocaption_nocaption{padding-top:2px}
+.photocaption_nocaption{margin-bottom:16px}
+#photocaption_parent.edit .photocaption_mentions{background-color:#fff;border:1px solid #bdc7d8;cursor:text;float:left;line-height:15px;margin-bottom:2px;min-height:30px;outline-color:-moz-use-text-color;outline-style:none;outline-width:medium;overflow-x:hidden;overflow-y:auto;padding:2px 3px;width:494px}
+#photocaption_parent.edit .button_container{padding:5px 0}
+.rotateLeftSubmit{background:white url(http://static.ak.fbcdn.net/rsrc.php/v1/z2/r/_IX9ihaVFpg.gif) no-repeat center center;border:none;height:26px;margin:2px 3px;width:25px}
+.rotateLeftSubmit:hover{background:#3B5998 url(http://static.ak.fbcdn.net/rsrc.php/v1/z4/r/YMPqumRb_-C.gif) no-repeat center center}
+.rotateRightSubmit{background:white url(http://static.ak.fbcdn.net/rsrc.php/v1/z0/r/pJS0S6kOaNI.gif) no-repeat center center;border:none;height:26px;margin:2px 3px;width:25px}
+.rotateRightSubmit:hover{background:#3B5998 url(http://static.ak.fbcdn.net/rsrc.php/v1/zx/r/qAjhwbqxvdd.gif) no-repeat center center}
+.tag_outer{border:solid 7px #d8dfea;position:absolute}
+.tag_outer, .tag_inner{display:block}
+.tag_inner{border:solid 2px #3b5998}
+.tag_box_unplaced{visibility:hidden}
+.tag_box{left:0;top:0}
+div.hidden{display:none}
+.auto_resize_iframe input.inputcancel{margin-left:10px}
+
+#bootloader_7Npg4 { height: 42px; }

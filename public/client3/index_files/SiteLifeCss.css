@@ -1,0 +1,1255 @@
+/* Global & Shared CSS Properties */
+div.Persona_Main{color:#000000; font-family:verdana; font-size:11px; text-align:left;}
+	div.Persona_Main a{color:#000000; text-decoration:underline;}
+	div.Persona_Main a:hover{color:#000000; text-decoration:underline;}
+	div.Persona_Main img{border:0px;}
+	div.Persona_Main table{font-size:11px; }
+
+div.Blog_Main{color:#000000; font-family:verdana; font-size:11px; text-align:left;}
+	div.Blog_Main a{color:#000000; text-decoration:underline;}
+	div.Blog_Main a:hover{color:#000000; text-decoration:underline;}
+	div.Blog_Main img{border:0px;}
+	div.Blog_Main table{font-size:11px; }
+
+div.PersonaStyle_ItemContainer{border: 1px solid #E4E3E3; margin-top:10px; padding-bottom:5px; }
+iframe.PersonaStyle_ItemIframe { width: 100%; border: 0px; overflow: visible;}
+div.PersonaStyle_SectionHead{font-size:12px; font-weight:bold; background-color:#e4e3E3; padding:3px 0px 3px 5px; text-align:left;}
+	div.PersonaStyle_SectionHead a{font-size:10px; font-weight:normal;}
+p.PersonaStyle_Description {padding-left: 5px;}
+a.PersonaStyle_RssIcon {float: right; background: url('/ver1.0/Content/images/icons/feedIcon.png') no-repeat; display:block; height: 16px; width: 16px; line-height: 16px; text-decoration:none;  margin-top: -1px;}
+	
+div.Blog_RightSideContainer{overflow:hidden; padding-bottom:10px; margin-left:10px;}
+	div.Blog_RightSideContainer a{color:#00659A; text-decoration:none;}
+	div.Blog_RightSideContainer a:hover{text-decoration:underline;}
+div.Blog_RightSideSectionHead{font-size:11px; font-weight:bold;}
+
+div.Persona_NullContent{padding:10px;}
+
+a.Persona_TopPluckLink{float:right; top:0px; right:10px;}
+	a.Persona_TopPluckLink img{border:0px;}
+div.Sitelife_PluckLogo{text-align:right;}
+	div.Sitelife_PluckLogo img{border:0px;}
+	div.Sitelife_PluckLogo a{border:0px;}
+div.Pluck_FooterLink{text-align:right; padding:10px 10px 10px 0px; font-size:11px;}
+
+img.PluckUserAvatar{border:0px}
+
+
+
+/* Moderated */
+div.Moderated{display:none; visibility: hidden;}
+table.Moderated{display:none; visibility: hidden;}
+tr.Moderated{display:none; visibility: hidden;}
+td.Moderated{display:none; visibility: hidden;}
+a.Moderated{display:none; visibility: hidden;}
+
+/*login prompts*/	
+div.Persona_LoginStatus{text-align:right; padding-top:7px; padding-bottom:7px;}/*login prompt above personas */	
+div.SiteLife_Login{padding:10px;}/*login prompt found in action areas of siteLife */	
+
+/************************************ Persona Styles *********************************/
+/* Persona Header */
+div.PersonaHeader_Container{clear:both; background-color:#E4E3E3; padding:10px 10px 0px 10px;}	
+div.PersonaHeader_Title{font-weight:bold; font-size:16px; text-align:left; display:inline;}	
+div.PersonaHeader_PublicContent{clear:both; margin-top:10px;}	
+span.PersonaHeader_PrivacyIndicator{font-size:10px;font-weight:normal;}
+	div.PersonaHeader_PublicContent a{border:2px solid #FC0511; background-color:#FFCC00; text-align:center; color:#000000; text-decoration:none; min-height:12px; line-height:12px; float:left; margin-bottom:10px; padding:5px; width:90%;} 
+	div.PersonaHeader_PublicContent a:hover{text-decoration:underline;}
+div.PersonaHeader_PrivateContent{margin-top:10px; padding:5px; clear:both; width:96%;  height:100%}
+table.PersonaHeader_Table{width:100%; border:0px; padding:0px 0px 0px 0px; table-layout:fixed;}
+td.PersonaHeader_TableLeft{vertical-align:top; width:70px; overflow:hidden; padding-bottom:10px; text-align:center; }
+	td.PersonaHeader_TableLeft img{border:1px solid #000000; margin:10px 0px 8px 0px; }
+td.PersonaHeader_TableMiddle{vertical-align:top; overflow:hidden; padding:10px 10px 0px 10px;}
+td.PersonaHeader_TableRight{vertical-align:top; width:200px; overflow:hidden;}
+div.PersonaHeader_Info{padding-bottom:10px; width:100%; overflow:hidden;}
+.PersonaHeader_InfoHeading{font-weight:bold;}
+div.PersonaHeader_RecommendUserProfile{padding-bottom:10px; display:inline; padding: 0px 0px 0px 20px;}
+div.PersonaHeader_PrivateMessageContent {clear:both; margin-top:10px;}
+	div.PersonaHeader_PrivateMessageContent a{color:#000000; text-decoration:none; height:17px; margin-left:15px; margin-bottom:10px; padding-left:20px; display:block;} 
+	div.PersonaHeader_PrivateMessageContent a:hover {text-decoration: underline;}
+	div.PersonaHeader_PrivateMessageContent a.PrivateMessageInbox {background: url('/ver1.0/Content/images/icons/icon_email.gif') no-repeat; }
+	div.PersonaHeader_PrivateMessageContent a.PrivateMessageInboxCount { font-weight: bold; }
+	div.PersonaHeader_PrivateMessageContent a.PrivateMessageContacts {background: url('/ver1.0/Content/images/icons/icon_contacts.gif') no-repeat; }
+	
+
+/* Persona Tabs */
+div.PersonaTabs_Container{height:25px;  min-height:23px; border-bottom:0px solid #cccccc; background-color:#E4E3E3; }
+div.PersonaTabs_Container a.PersonaTabs_On{float:left;  padding:5px 10px 5px 10px; margin-left:5px; border:1px solid #cccccc; border-bottom:0px; background-color:#FFFFFF; color:#000000; text-decoration:none; font-family:verdana; font-size:10px; font-weight:bold;}
+div.PersonaTabs_Container a.PersonaTabs_On:hover{text-decoration:none;}
+div.PersonaTabs_Container a.PersonaTabs_Off{float:left;  padding:5px 10px 5px 10px; margin-left:5px; border:1px solid #cccccc; border-bottom:0px; background-color:#cccccc; color:#000000; text-decoration:none; font-family:verdana; font-size:10px;}
+div.PersonaTabs_Container a.PersonaTabs_Off:hover{text-decoration:none; background-color:#B7B7B7;}
+
+/* Persona Home Table */
+table.Persona_2ColumnTable{width:100%; border:0px; margin:0px; padding:0px; table-layout:fixed; clear:both;}
+td.Persona_2ColumnTableLeft{width:67%; vertical-align:top; padding:0px 5px 0px 0px;}
+td.Persona_2ColumnTableRight{width:33%; vertical-align:top; padding:0px 0px 0px 5px;}
+
+/* WatchList */
+div.WatchList_Title{padding:5px 0px 0px 5px; text-align: left; width:100%;}
+table.WatchList_List{width:100%; margin:auto; padding:0px 5px 5px 5px;}
+td.WatchList_ListLeft{width:100%; text-align:left; padding-top:5px; overflow:hidden;}
+td.WatchList_ListRight{width:13px; text-align:center; padding-top:5px;}
+div.WatchList_Page{text-align:center; padding:10px;}
+				
+/* Reactions */
+div.Reactions_Wrapper{padding:0px 5px 5px 5px;}
+table.Reactions_Table{width:100%; padding-bottom:7px; border-bottom:1px dotted #cccccc;}
+table.Reactions_Table img{ border:1px solid #000000;}	
+td.Reactions_TableContent{width:100%; vertical-align:top; padding-top:7px; overflow:hidden;}
+td.Reactions_TableImg{width:63px; vertical-align:top; padding-top:7px;}
+div.Reactions_Title{font-style:italic;}	
+	div.Reactions_Title a{font-style:italic;}
+div.Reactions_DateTime{color:#999999;}
+div.Reactions_Data{margin:5px 0px 5px 0px; overflow:hidden;}
+div.Reactions_Data img {max-width: 400px; _width: expression(this.offsetWidth > 400 ? "400px" : this.offsetWidth);}
+div.Reactions_Link{padding:0px 0px 0px 0px;}
+
+/* Friends */
+table.Friends_List{width:100%; margin:auto; padding:0px 5px 0px 5px;}
+td.Friends_ListLeft{text-align:left; padding-top:5px; overflow:hidden;}
+td.Friends_ListRight{width:35px; text-align:right; padding-top:5px;}
+div.Friends_Page{text-align:center; padding-bottom:5px;}
+div.Friends_ShowAll{text-align:center; padding:5px;}
+/* Friends Connect */
+div.Friends_ConnectMessage{padding:5px;}
+td.Friends_PendingName{width:100%; overflow:hidden; padding-top:3px;}
+td.Friends_PendingAccept{padding-top:3px;}
+td.Friends_PendingReject{padding-left:5px; padding-top:3px;}
+
+/* MessagePreview */
+table.MessagePreview_Table{width:100%;}
+	table.MessagePreview_Table img{width:32px; height:32px; border: 1px solid #000000;}
+td.MessagePreview_TableLeft{vertical-align:top; width:34px; padding:5px 0px 5px 5px;}
+td.MessagePreview_TableRight{width:100%; padding:3px 0px 5px 5px; vertical-align:top; text-align:left; color:#000000; overflow:hidden;}
+div.MessagePreview_User{font-weight:bold;}
+div.MessagePreview_DateTime{color:#999999; padding-top:0px;}
+div.MessagePreview_ViewMessage{padding-top:0px;}
+div.MessagePreview_ViewAll{text-align:center; padding-bottom:5px;}
+
+/* RecentPhotoSlideShow */
+div.RecentPhotoSlideShow_ViewAll{padding:5px; text-align:center;}
+div.RecentPhotoSlideShow_Image{text-align:center; padding:5px 0px 5px 0px;}
+	div.RecentPhotoSlideShow_Image img{border: 1px solid #000000;}
+table.RecentPhotoSlideShow_Table{width:80%; table-layout:fixed; margin:auto;}
+td.RecentPhotoSlideShow_TableLeft{width:50%; text-align:left;}
+td.RecentPhotoSlideShow_TableRight{width:50%; text-align:right;}
+
+/* My Latest Discussions */
+div.MyLatestDiscussions_Item{padding:5px 5px 0px 5px; text-align:left; overflow:hidden;}
+.MyLatestDiscussions_Date{color:#999999;}
+div.MyLatestDiscussions_GoForumsLink{padding:10px; text-align:center;}
+
+/* My Groups */
+div.MyGroups_Item{padding:5px 5px 0px 5px; text-align:left; overflow:hidden;}
+div.MyGroups_GoForumsLink{padding:10px; text-align:center;}
+div.MyGroups_Count{padding:5px;}
+img.MyGroups_Image{float:left;padding:3px 10px 3px 3px;}
+
+/* Community Groups */
+div.PersonaStyle_GroupListContainer { overflow: auto; padding: 0px; margin: 0px; }
+div.PersonaStyle_GroupList { overflow: auto; clear: left; padding: 2px; margin: 5px auto 0 auto; }
+div.PersonaStyle_GroupList img { width: 50px; height: 50px; margin: 4px 4px 4px 4px; }
+div.PersonaStyle_GroupListClear { clear: both; }
+
+/* UserComments */
+div.UserComments_Comment{margin:3px 0px 3px 0px;}
+table.UserComments_Table{width:95%; padding-bottom:10px; border-bottom:1px solid #000000; margin:auto; margin-top:7px;}
+	table.UserComments_Table img{border: 1px solid #000000; width:75px;}
+div.UserComments_Origin{font-style:italic; font-weight:bold;}
+	div.UserComments_Origin a{font-style:normal; font-weight:normal;}
+.UserComments_DateTime{font-weight:normal; font-style:normal; }
+div.UserComments_Recommended{text-align:left; padding-bottom:5px;}
+div.UserComments_Page{text-align:center; padding:5px;}
+tr.UserComments_TableRowColor{}
+
+/* Messages */
+table.Messages_MessageTable{width:100%; table-layout:fixed;}
+	table.Messages_MessageTable img{ border: 1px solid #000000;}
+td.Message_Remove{text-align:center; width:13px; padding:8px 0px 0px 5px; vertical-align:top;}
+	td.Message_Remove img{border:0px;}
+td.Messages_MessageTableLeft{vertical-align:top; width:63px; padding:8px 0px 9px 5px; text-align:center;}
+td.Messages_MessageTableRight{width:100%; padding:8px 5px 9px 5px; vertical-align:top; text-align:left; overflow:hidden;}
+div.Messages_MessageBody{}
+div.Messages_DateTime{color:#999999;}
+div.Messages_Page{text-align:center; padding:5px;}
+div.Messages_NewMessageContainer{text-align:center;margin-top:10px; }
+
+div.Messages_NewMessageHead{text-align:center;}
+.Messages_NewMessageSubject{width:300px; margin:10px 0px 0px 0px;}
+.Messages_NewMessageTextBox{width:300px; height:100px; margin:10px 0px 0px 0px;}
+div.Messages_NewMessageSubmit{margin:10px 0px 10px 0px; text-align:center;}
+tr.Messages_MessagesTableRowColor{}
+tr.Messages_MessagesTableAltRowColor{background-color:#f3f3f3;}
+div.PrivateMessages_Intro,
+div.PrivateMessages_Container{padding:0 100px 20px 200px; width:375px; text-align:left;}
+    div.PrivateMessages_Container label{display:block;font-weight:bold;}
+    div.PrivateMessages_Container .slRequiredField { color:#990000;}
+    div.PrivateMessages_Container .Messages_NewMessageTextBox,
+    div.PrivateMessages_Container .Messages_NewMessageSubject{margin: 0px 0px 10px 0px; }
+    div.PrivateMessages_Container .Messages_NewMessageSubmit{text-align:left;}
+
+
+/* Private Persona */
+div.PrivatePersona_ItemContainer {border: 1px solid #E4E3E3; margin-top:10px; padding-bottom:200px;}
+
+/* Add Message Frame */
+.Messages_Iframe{width:100%;}
+body.AddMessage_Body{margin:0px; padding:0px;}
+
+/* Message Approval Message */
+div.Messages_MustConnectMessage{padding:10px;}
+
+/* Photos_Home */
+table.Photos_HomeTable{table-layout:fixed; width:100%;}
+div.Photo_PhotoNotFoundText{color:#c00;padding:20px;}
+
+/* GallerySubmissions */
+div.GallerySumissions_Discription{padding:5px 0px 0px 5px;}
+div.GallerySubmissions_ActionLink{padding:3px; text-align:left; height:20px; text-align:right; padding:10px 0px 10px 0px;}
+	div.GallerySubmissions_ActionLink a{float:left; padding:5px; margin-right:10px; background-color:#ff8800; border:1px solid #ff3300; color:#ffffff; text-decoration:none;}
+	div.GallerySubmissions_ActionLink a:hover{text-decoration:underline; color:#ffffff;}
+table.GallerySubmissions_Table{width:100%; text-align:left; margin:auto; margin-top:5px;}
+td.GallerySubmissions_TableDate{padding-left:5px;}
+td.GallerySubmissions_TableName{width:100%; padding:0px 10px 0px 7px;}
+div.GallerySubmissions_Page{text-align:center;}
+
+/* UserGalleryList */
+div.UserGalleryList_ActionLink{padding:3px; text-align:right; padding:10px 0px 10px 0px;}
+	div.UserGalleryList_ActionLink a{float:right; padding:5px; background-color:#ff8800; border:1px solid #ff3300; color:#ffffff; text-decoration:none;}
+	div.UserGalleryList_ActionLink a:hover{text-decoration:underline;}
+table.UserGalleryList_Table{margin:auto;}
+div.UserGalleryList_Gallery{width:84px; float:left; margin:5px; }
+	div.UserGalleryList_Gallery img{width:60px; height:60px; margin:8px 0px 0px 8px; }
+div.UserGalleryList_GalleryDetails{text-align:center; padding:20px 0px 0px;}
+div.UserGalleryList_Page{text-align:center; padding:10px;}
+
+/* MyRecentPhotos */
+div.MyRecentPhotos_Details{text-align:left; padding:5px;}
+table.MyRecentPhotos_Table{margin:auto; text-align:left; width:90%;}
+	table.MyRecentPhotos_Table img{float:left; padding:5px 0px 0px 5px; border:0px; width:60px; height:60px;}
+div.MyRecentPhotos_Page{text-align:center; padding:5px;}
+a.MyRecentPhotos { }
+
+/* GalleryPhoto/PersonaPhoto Preview */
+tr.GalleryPreview{display:table-row; visibility:visible;}
+tr.GalleryPreview_Reverse{display:none; visibility: hidden;}
+
+/* GalleryPhoto */
+div.GalleryPhoto_Container{text-align:center; margin:10px; font-size:11px;}
+	div.GalleryPhoto_Container a{color:#000000;}
+div.GalleryPhoto_Heading{text-align:left; font-size:14px; font-weight:bold;}
+	div.GalleryPhoto_Heading a{font-weight:normal;}
+div.GalleryPhoto_Image{text-align:center; margin-top:10px;}
+	div.GalleryPhoto_Image img{padding:5px; border:1px solid #000000;}
+table.GalleryPhoto_Table{width:100%; table-layout:fixed; padding:10px 0px 10px 0px; border-bottom: 1px solid #999999; margin:auto;}
+	table.GalleryPhoto_Table img{border:0px; margin-bottom:-3px;}
+div.GalleryPhoto_Title{font-weight:bold; text-align:left;}
+div.GalleryPhoto_ByLine{color:#999999; text-align:left;}
+	div.GalleryPhoto_ByLine a{font-style:italic;}
+div.GalleryPhoto_Description{}
+table.GalleryPhoto_GalleryPreview{width:193px; }
+	table.GalleryPhoto_GalleryPreview td{text-align:center;}
+	table.GalleryPhoto_GalleryPreview img{width:49px; height:50px; padding:3px; border:1px solid #999999;}
+	table.GalleryPhoto_GalleryPreview img.GalleryPhoto_CurrentImage{width:49px; height:50px; padding:3px; border:2px solid #000000;}
+div.GalleryPhoto_Tags{text-align:left;}
+div.GalleryPhoto_Statistics{width:75%; text-align:left; padding:5px 0px 0px 50px;}
+div.GalleryPhoto_Actions{width:75%; text-align:left; padding:5px 0px 0px 50px;}
+
+/* PersonaPhoto */
+div.PersonaPhoto_Image{text-align:center; margin-top:10px;}
+	div.PersonaPhoto_Image img{padding:5px; border:1px solid #000000;}
+table.PersonaPhoto_Table{width:95%; table-layout:fixed; padding:10px 0px 10px 0px; border-bottom: 1px solid #999999; margin:auto;}
+	table.PersonaPhoto_Table img{border:0px; margin-bottom:-3px;}
+div.PersonaPhoto_Title{font-weight:bold;}
+div.PersonaPhoto_ByLine{color:#999999;}
+	div.PersonaPhoto_ByLine a{font-style:italic;}
+div.PersonaPhoto_Description{}
+table.PersonaPhoto_GalleryPreview{width:193px; }
+	table.PersonaPhoto_GalleryPreview td{text-align:center;}
+	table.PersonaPhoto_GalleryPreview img{width:49px; height:50px; padding:3px; border:1px solid #999999;}
+	table.PersonaPhoto_GalleryPreview img.PersonaPhoto_CurrentImage{width:49px; height:50px; padding:3px; border:2px solid #000000;}
+div.PersonaPhoto_Tags{text-align:left;}
+div.PersonaPhoto_Statistics{width:75%; text-align:left; padding:5px 0px 0px 50px;}
+div.PersonaPhoto_Actions{width:75%; text-align:left; padding:5px 0px 0px 50px;}
+div.PersonaPhoto_Comments{width:95%; margin:auto;}
+
+/* UserGallery */
+div.UserGallery_Description{padding:5px 0px 0px 5px;}
+div.UserGallery_Details{padding:5px;}
+div.UserGallery_Delete{text-align:center; padding:5px;}
+div.UserGallery_PhotosWraper{width:90%; margin:auto;}
+table.UserGallery_PhotosTable{margin:auto;}
+div.UserGallery_PrivatePhotoDiv{width:60px; height:80px; background-color:#cccccc; float:left; margin:5px 0px 0px 5px; text-align:center;}
+	div.UserGallery_PrivatePhotoDiv img{ border:0px; width:60px; height:60px;}
+img.UserGallery_PublicPhoto{float:left; padding:5px 0px 0px 5px; border:0px; width:60px; height:60px;}
+div.UserGallery_Page{clear:both; text-align:center; padding:10px;}
+div.UserGallery_Image{ }
+
+/* UserGalleryCreate */
+.UserGalleryCreate_ErrorText{font-size:12px; text-align:left; width:300px; color:#ff0000; font-weight:bold;}
+div.UserGalleryCreate_FieldCaption{padding:10px; text-align:left; width:300px;}
+div.UserGalleryCreate_Buttons{padding:10px; text-align:right; width:300px;}
+div.UserGalleryCreate_Example{padding:3px 0px 0px 10px; text-align:left; width:300px; font-size:9px; }
+.UserGalleryCreate_TextField{width:300px; margin-left:10px;}
+.UserGalleryCreate_TextArea{width:300px; margin-left:10px; height:60px;}
+
+/* UserGalleryConfirmation */
+table.UserGalleryConfirmation_Table{table-layout:fixed; width:90%; margin:20px 0px 0px 0px; font-size:12px;}
+td.UserGalleryConfirmation_TableLeft{width:100px; vertical-align:top; text-align:center;}
+td.UserGalleryConfirmation_TableMiddle{width:80px; text-align:right; vertical-align:top;}
+td.UserGalleryConfirmation_TableRight{text-align:left; vertical-align:top; width:100%; font-weight:bold;}
+div.UserGalleryConfirmation_AddImage{width:84px; height:87px; text-align:left; margin:auto; padding-bottom:7px; }
+	div.UserGalleryConfirmation_AddImage img{width:60px; height:60px; margin:8px 0px 0px 8px; border:0px;}
+	
+/* PersonaBlog Main Layout */
+table.PersonaBlog_Table{width:100%; table-layout:fixed;}
+td.PersonaBlog_TableLeft{vertical-align:top; width:70%; text-align:left; }
+td.PersonaBlog_TableRight{vertical-align:top; width:30%; border-left:dotted 2px #999999; text-align:left; }
+
+/* BloggerProfile */
+div.BloggerProfile_Container{background-color:#EEEEEE; border:1px solid #EEEEEE; margin:10px 0px 10px 0px;}
+table.BloggerProfile_Table{width:100%; table-layout:fixed; text-align:left; margin:0px; padding:0px;}
+td.BloggerProfile_TableImg{width:80px; vertical-align:top; text-align:center; padding-top:5px;}
+td.BloggerProfile_TableText{width:100%; vertical-align:top;}
+table.BloggerProfile_Table div.BloggerProfile_Title{margin:5px 10px 10px 0px; font-size:16px; font-weight:bold;}
+div.BloggerProfile_TagLine{margin:5px 0px 20px 0px; font-size:14px;}
+
+/* FOR MAB ONLY */
+table.BlogMain_MabAuthTable{table-layout:fixed; width:100%; vertical-align:top;table-layout:fixed;}
+td.BlogMain_MabAuthTableLeft{width:65px; text-align:left;  }
+td.BlogMain_MabAuthTableRight{width:100%; text-align:left; }
+
+/* BlogMain */
+div.BlogMain_EntryContainer{padding:0px 0px 10px 0px; margin:0px 10px 10px 0px; border-bottom:1px solid #999999; overflow:hidden;}
+div.BlogMain_EntryDate{color:#999999; padding-top:3px;}
+div.BlogMain_EntryTitle{font-size:12px; font-weight:bold;}
+div.BlogMain_EntryContent{padding-top:7px;}
+div.BlogMain_EntryDetails{padding-top:10px; padding-bottom:12px; font-size:9px;}
+table.BlogMain_EntryPost{width:100%; table-layout:fixed;}
+div.BlogMain_Page{text-align:center; padding:5px;}
+
+/* Blog Nav */
+div.BlogNav{padding:10px 0px 0px 0px; font-size:11px; text-align:right;  margin:auto;}
+a.BlogNav_On{text-decoration:none; font-weight:bold;}
+a.BlogNav_Off{font-size:11px;}
+a#BlogNav_Persona_Home{}
+a#BlogNav_Persona_WriteNewPost{}
+a#BlogNav_Persona_EditPost{}
+a#BlogNav_Persona_ViewComments{}
+a#BlogNav_Persona_BlogSettings{}
+a#BlogNav_Home{}
+a#BlogNav_WriteNewPost{}
+a#BlogNav_EditPost{}
+a#BlogNav_ViewComments{}
+
+/* Blog Add to Watchlist */
+div.Blog_AddToWatchlist{height:20px; font-size:11px; padding-left:10px;}
+div.Blog_AddToWatchlist a{border:2px solid #FC0511; background-color:#FFCC00; text-align:center; color:#000000; text-decoration:none; height:12px; float:left; margin-bottom:10px; padding:5px; width:90%;}
+div.Blog_AddToWatchlist a:hover{text-decoration:underline; }
+
+/* BlogEntryList */
+div.BlogEntryList_Entries{padding:10px 0px 0px 0px;}
+	div.BlogEntryList_Entries a{clear:both; float:left; padding-bottom:5px;}
+
+/* BlogArchiveList */
+div.BlogArchiveList_Entries{padding:10px 0px 0px 0px;}
+	div.BlogArchiveList_Entries a{clear:both; float:left; padding-bottom:5px;}
+	
+/* BlogEntryForm */
+iframe.BlogEntryForm_Iframe{width:100%; height:800px; overflow:visible}
+table.BlogEntryForm_Table{width:100%; table-layout:fixed; text-align:left; font-family:Verdana;}
+td.BlogEntryForm_TableLeft{vertical-align:top; width:90px; padding:15px 0px 0px 10px; font-weight:bold; font-size:11px;}
+td.BlogEntryForm_TableRight{vertical-align:top; width:100%; padding-top:10px;}
+div.BlogEntryForm_Submit{padding:5px; text-align:left;}
+.BlogEntry_InputFullField{width:100%;}
+.BlogEntry_SelectMonth{}
+.BlogEntry_SelectDay{}
+.BlogEntry_SelectYear{}
+.BlogEntry_Textarea{width:100%; height:350px;}
+.BlogEntry_Abstractarea{width:100%; height:100px;}
+.BlogEntry_AbstractNote{ font-size:10px }
+
+/* BlogEntry */
+div.BlogEntry_Container{padding:0px 0px 10px 0px; margin:0px 10px 0px 0px; text-align:left; overflow:hidden;}
+div.BlogEntry_Title{font-size:14px; font-weight:bold; }
+div.BlogEntry_PostDate{color:#cccccc; }
+div.BlogEntry_Text{padding-top:10px;}
+div.BlogEntry_Details{padding-top:10px; padding-bottom:10px;}
+table.BlogEntry_Actions{width:100%; table-layout:fixed; padding:5px; border-top:2px solid #cccccc; border-bottom:2px solid #cccccc; }
+td.BlogEntry_ActionItem{width:40%; text-align:left; padding-left:40px;}
+	td.BlogEntry_ActionItem{width:40%; text-align:left; padding-left:40px;}
+	td.BlogEntry_ActionItem img{margin-bottom:-3px;}
+div.BlogEntry_Tags{padding-top:3px;}
+	
+/* PendingComments */
+table.PendingComments_ActionsTable{width:100%; padding:10px;  font-size:12px;}
+	td.PendingComments_ActionsTableSort{width:40%; text-align:left;}
+	td.PendingComments_ActionsTableOption{width:60%; text-align:right;}
+div.PendingComments_PostContainer{border-bottom:1px solid #999999; margin:0px 10px 10px 10px; padding:10px 0px 10px 0px; font-size:12px;}
+	div.PendingComments_PostContainer a{font-weight:bold;}
+table.PendingComments_Table{margin:10px 0px 0px 10px; font-size:10px; }
+td.PendingComments_TableLeft{vertical-align:top; width:100px; text-align:center;}
+td.PendingComments_TableRight{vertical-align:top; width:100%;}
+div.PendingComments_Author{}
+	div.PendingComments_Author a{font-weight:bold;}
+div.PendingComments_Comment{padding-top:3px;}
+div.PendingComments_Comment img {max-width: 700px; _width: expression(this.offsetWidth > 700 ? "700px" : this.offsetWidth);}
+div.PendingComments_PostDate{color:#999999; padding-top:3px;}
+div.PendingComments_Page{text-align:center; padding:5px;}
+
+/* BlogSettings */
+table.BlogSettings_AboutTable{table-layout:fixed; text-align:left; margin:10px 0px 20px 20px; width:80%;}
+td.BlogSettings_AboutTableLeft{vertical-align:top; width:90px; padding:10px 0px 0px 10px; font-weight:bold; font-size:12px;}
+td.BlogSettings_AboutTableRight{vertical-align:top; width:100%; padding-top:10px;}
+table.BlogSettings_PreferencesTable{width:80%; table-layout:fixed; text-align:left; margin:10px 0px 20px 50px;}
+td.BlogSettings_PreferencesTableLeft{vertical-align:top; width:150px; padding:10px 0px 0px 10px;}
+td.BlogSettings_PreferencesTableRight{vertical-align:top; width:100%; padding-top:10px;}
+div.BlogSettings_Save{padding-top:10px; text-align:left;}
+.BlogSettings_InputField{width:300px; margin-top:3px;}
+.BlogSettings_SelectTime{width:120px;}
+.BlogSettings_SelectEntries{width:40px;}
+.BlogSettings_Disabled{color:#cccccc;}
+
+/* ViewEditList */
+div.ViewEditList_Options{padding:10px 0px 10px 0px; border-bottom:1px solid #cccccc;  margin:0px 10px 0px 10px; font-size:12px;}
+table.ViewEditList_Table{width:95%; table-layout:fixed; text-align:left; font-size:12px; margin-left:10px; }
+tr.ViewEditList_TableRowColor{}
+tr.ViewEditList_TableAltRowColor{background-color:#f3f3f3;}
+td.ViewEditList_TableLeft{width:175px; padding:5px;}
+td.ViewEditList_TableMiddle{ padding:5px;}
+td.ViewEditList_TableRight{width:115px; padding:5px; text-align:right;}
+.ViewEditList_TableHeading{font-weight:bold;}
+
+/*ProfileEdit*/
+body.PersonaProfile_Body{width:600px;}
+div.ProfileEdit_SectionDescription{text-align:left; padding:5px;}	
+	div.ProfileEdit_SectionDescription a{font-weight:bold;}	
+table.ProfileEdit_Table{width:100%; table-layout:fixed;}
+table.ProfileEdit_AvatarPickerTable{width:100%; table-layout:fixed;}
+td.ProfileEdit_TableFieldName{width:30%; text-align:right; vertical-align:top; font-size:11px; padding: 10px 5px 0px 0px;}
+td.ProfileEdit_TableField{width:70%; text-align:left; vertical-align:top; font-size:9px; padding-top:5px; }
+td.ProfileEdit_TableField img{border:1px solid #000000;}
+div.ProfileEdit_Submit{padding:10px; text-align:center;}
+.ProfileEdit_BigInput{width:250px; }
+.ProfileEdit_SmallInput{width:80%;}
+.ProfileEdit_Textarea{width:250px; height:100px;}
+.ProfileEdit_Combobox{width:255px; }
+td.ProfileEdit_mm{width:25px; padding-right:2px; text-align:left;}
+td.ProfileEdit_dd{width:25px; padding-right:2px; text-align:left;}
+td.ProfileEdit_yyyy{width:35px; text-align:left;}
+td.ProfileEdit_Caption{color:#666666; vertical-align:top;}
+td.ProfileEdit_PublicPrivateRadio{padding-top:7px; vertical-align:top;}
+td.ProfileEdit_PublicPrivateText{padding:9px 5px 0px 0px; vertical-align:top;}
+div.ProfileEdit_SignaturePreview{ overflow:auto; height:130px; border: solid 1px #7F9DB9; }
+div.ProfileEdit_EditSignature{ float:right; padding-top:5px;}
+div.PersonaEdit_SignatureMain{margin:5px; }
+div.PersonaEdit_SignatureSave{padding:10px 0 0 0; text-align:center;}
+.ProfileEdit_SignatureEditArea{width:350px; height:200px;}
+.PersonaEdit_HelpImage{position:relative; top:5px;}
+div.PersonaEdit_SignatureHelp{padding-bottom:15px; font-size:10px;}
+iframe.Profile_Iframe{width:100%; height:2000px; overflow:visible}
+
+/*Profile Summary*/
+table.ProfileSummary_Table{width:100%;table-layout:fixed }
+td.ProfileSummary_Caption {vertical-align:top;padding:7px; text-align:right;}
+td.ProfileSummary_Answer {vertical-align:top; padding:7px; text-align:left; width:425px;}
+
+/* PersonaPhotoUpload */
+div.PersonaPhotoUpload_TOS{padding:10px 0px 0px 10px;}
+div.PersonaPhotoUpload_Instructions{padding:10px 0px 0px 10px;}
+div.PersonaPhotoUpload_FileBrowse{padding:10px 0px 0px 10px;}
+div.PersonaPhotoUpload_AddSubmit{padding:10px 0px 10px 10px; text-align:left;}
+div.PersonaPhotoUpload_Error{padding:10px 0px 0px 10px; color:#ff0000;}
+
+/* PersonaPhotoAddDetail */
+table.PersonaPhotoAddDetail_ItemTable{width:95%; table-layout:fixed; margin:auto; text-align:left;}
+td.PersonaPhotoAddDetail_ItemTableImg{width:90px; vertical-align:top; padding-top:20px;}
+	td.PersonaPhotoAddDetail_ItemTableImg img{width:80px;}
+td.PersonaPhotoAddDetail_ItemTableDetails{Width:100%; vertical-align:top; padding-top:15px;}
+div.PersonaPhotoAddDetail_Delete{}
+table.PersonaPhotoAddDetail_DetailsTable{width:100%; table-layout:fixed; text-align:left;}
+td.PersonaPhotoAddDetail_DetailsTableFieldName{font-size:12px; font-weight:bold; width:95px; padding:8px 0px 0px 0px; vertical-align:top;}
+.PersonaPhotoAddDetail_Required{color:#ff0000; font-weight:normal; font-size:9px;}
+td.PersonaPhotoAddDetail_DetailsTableField{padding:3px 0px 0px 10px; vertical-align:top;}
+.PersonaPhotoAddDetail_DetailsField{width:250px;}
+.PersonaPhotoAddDetail_DetailsTextarea{width:250px; height:30px;}
+div.PersonaPhotoAddDetail_Submit{text-align:left; margin:auto; padding:10px 0px 10px 0px;}
+
+
+/* PersonaPhotoConfirmation */
+div.PersonaPhotoConfirmation_Content{margin:10px;}
+
+/********************************************* PHOTOS CSS *********************************************/
+/* PhotoConfirmation */
+div.PhotoConfirmation_Container{font-family:verdana; font-size:10px; text-align:left;}
+	div.PhotoConfirmation_Container a{color:#000000;}
+div.PhotoConfirmation_SectionHead{font-size:12px; font-weight:bold; background-color:#e4e3E3; padding:3px; text-align:left;}
+div.PhotoConfirmation_Content{margin:10px;}
+
+/* PhotoUpload */
+div.PhotoUpload_Container{font-family:verdana; font-size:10px; text-align:left;}
+	div.PhotoUpload_Container a{color:#000000;}
+	div.PhotoUpload_Container img{border:1px solid #000000;}
+div.PhotoUpload_SectionHead{font-size:12px; font-weight:bold; background-color:#e4e3E3; padding:3px; text-align:left;}
+div.PhotoUpload_TOS{padding:10px 0px 0px 10px;}
+div.PhotoUpload_Instructions{padding:10px 0px 0px 10px;}
+div.PhotoUpload_FileBrowse{padding:10px 0px 0px 10px;}
+/* Note: it is not possible to set the width on an <input type="file"> element - width must be set using size attribute */
+input.PhotoUpload_FileBrowseInput{} 
+div.PhotoUpload_AddSubmit{padding:10px 0px 10px 10px; text-align:left; }
+/* These are the classes on the actual "Add Another" and "Upload" buttons */
+input.PhotoUpload_AddAnotherButton {}
+input.PhotoUpload_AddSubmitButton {margin-left: 8px;}
+div.PhotoUpload_Error{padding:10px 0px 0px 10px; color:#ff0000;}
+
+/* PhotoAddDetail */
+div.PhotoAddDetail_Container{font-family:verdana; font-size:10px; text-align:left; }
+	div.PhotoAddDetail_Container a{color:#000000;}
+	div.PhotoAddDetail_Container img{border:1px solid #000000;}
+div.PhotoAddDetail_SectionHead{font-size:12px; font-weight:bold; background-color:#e4e3E3; padding:3px; text-align:left;}
+table.PhotoAddDetail_ItemTable{width:95%; table-layout:fixed; margin:auto; text-align:left;}
+td.PhotoAddDetail_ItemTableImg{width:90px; vertical-align:top; padding-top:20px;}
+	td.PhotoAddDetail_ItemTableImg img{width:80px;}
+td.PhotoAddDetail_ItemTableDetails{Width:100%; vertical-align:top; padding-top:15px;}
+div.PhotoAddDetail_Delete{}
+table.PhotoAddDetail_DetailsTable{width:100%; table-layout:fixed; text-align:left;}
+td.PhotoAddDetail_DetailsTableFieldName{font-size:12px; font-weight:bold; width:95px; padding:8px 0px 0px 0px; vertical-align:top;}
+.PhotoAddDetail_Required{color:#ff0000; font-weight:bold; font-size:9px;}
+td.PhotoAddDetail_DetailsTableField{padding:3px 0px 0px 10px; vertical-align:top;}
+.PhotoAddDetail_DetailsField{width:250px;}
+.PhotoAddDetail_DetailsTextarea{width:250px; height:30px;}
+div.PhotoAddDetail_Submit{text-align:left; margin:auto; padding:10px 0px 10px 0px;}
+input.PhotoAddDetail_SubmitButton{}
+
+/* SolicitPhoto */
+div.SolicitPhoto_Container{font-family:verdana; font-size:10px; text-align:center; border:1px solid #999999; background-color:#e4e3E3; margin-top:10px;}
+	div.SolicitPhoto_Container a{color:#000000;}
+div.SolicitPhoto_SectionHead{font-size:14px; font-weight:bold; background-color:#e4e3E3; padding:5px; text-align:left;}
+div.SolicitPhoto_Photo{margin:10px;}
+	div.SolicitPhoto_Photo img{border:0px;}
+div.SolicitPhoto_Subject{font-size:12px; font-weight:bold;}
+div.SolicitPhoto_Details{padding-top:5px; width:90%; margin:auto;}
+div.SolicitPhoto_Action{padding:10px;}
+	div.SolicitPhoto_Action a{color:#000000; font-size:12px; font-weight:bold;}
+div.SolicitPhoto_Link{padding-bottom:10px;}
+
+/* PublicGalleries */
+div.PublicGalleries_Container{font-size:11px; text-align:left;}
+	div.PublicGalleries_Container a{color:#000000;}
+div.PublicGalleries_SectionHead{font-size:30px; background-color:#CDDAEB; padding:7px;}
+table.PublicGalleries_Table{width:100%; table-layout:fixed; margin-top:5px;}
+td.PublicGalleries_TableImg{vertical-align:top; width:200px; padding:5px;}
+	td.PublicGalleries_TableImg img{ border:0px solid #000000;}
+td.PublicGalleries_TableDetails{width:100%; text-align:left; padding:5px 0px 0px 10px; vertical-align:top;}
+div.PublicGalleries_Title{font-size:16px; font-weight:bold;}
+div.PublicGalleries_Description{padding-top:3px;}
+div.PublicGalleries_ViewLink{padding:5px 0px 0px 20px; font-size:12px; font-weight:bold;}
+div.PublicGalleries_UploadLink{padding:0px 0px 0px 20px; font-size:12px; font-weight:bold;}
+a.PublicGalleryPhoto{visibility: visible;}
+div.PublicGalleries_PaginDiv{font-size:12px;}
+
+/* PublicGallery */
+div.PublicGallery_Container{font-size:10px; font-family:Verdana; text-align:left; margin:auto;}
+	div.PublicGallery_Container a{color:#000000;}
+div.PublicGallery_Title{font-size:16px; font-weight:bold; padding:10px 0px 0px 0px;}
+div.PublicGallery_Description{font-size:11px; padding:10px 0px 0px 0px;}
+div.PublicGallery_Details{padding-top:10px; font-size:12px;}
+div.PublicGallery_PhotosContainer{margin:10px 0px 0px 0px; padding:5px; border:1px solid #000000; text-align:center;}
+table.PublicGallery_PhotosTable{margin:auto; text-align:left; }
+	table.PublicGallery_PhotosTable img{margin:5px; border:0px; width:60px; height:60px;}
+div.PublicGallery_Page{text-align:center;}
+div.PublicGallery_Actions{font-size:12px; padding-top:10px;}
+	div.PublicGallery_Actions img{margin-bottom:-3px;}
+table.PublicGallery_Table{width:100%; table-layout:fixed; padding-top:10px;}
+td.PublicGallery_About{vertical-align:top;}
+td.PublicGallery_Related{vertical-align:top;}
+div.PublicGallery_SubHeading{font-size:12px; font-weight:bold; padding-bottom:5px;}
+
+
+/************************* MISC ELEMENTS ***************************************/
+div.ReportAbuse_Container{background-color:#cccccc; width:170px; font-weight:bold; border:1px solid #000000; font-family:Verdana; font-size:10px; text-align:left; z-index:4; position:absolute;}
+div.ReportAbuse_SectionHead{padding:2px; height:15px;}
+	div.ReportAbuse_SectionHead a{float:right; border:1px solid #000000; color:#000000; background-color:#FFFFFF; padding:1px; text-decoration:none; }
+	div.ReportAbuse_SectionHead a:hover{background-color:#000000; color:#FFFFFF;}
+div.ReportAbuse_Interior{ width:170px; padding-bottom:3px; clear:both;}
+	div.ReportAbuse_Interior a{float:left; font-weight:bold; height:15px; border-bottom:1px solid #000000; color:#000000; padding:2px 0px 0px 10px; width:160px; background-color:#FFFFFF; text-decoration:none; }
+	div.ReportAbuse_Interior a:hover{background-color:#CCCCCC;}
+	div.ReportAbuse_Interior select{margin-left:5px; }
+div.ReportAbuse_Comment{width:170px;}
+div.ReportAbuse_Comment textarea{width:90%; height:70px; margin-left:5px;}
+div.ReportAbuse_Comment input{padding:1px; margin:3px 0px 3px 5px; }
+
+.BlockedContent{color:#FF0000;font-weight:bold;height:70px}
+
+.NoDisplay{display:none;}
+.bold{font-weight:bold;}
+.SiteLife_Error{color:#ff0000;}
+
+div.SiteLife_Filtered{padding:5px 0px 5px  0px; font-size:11px; font-weight:normal; font-family:Verdana; color:#ff0000; }
+div.SiteLife_Filtered ul{margin-top:4px;}
+
+div#rpt_persona_abuse a.SiteLife_ReportAbuse{float:left; padding:1px 0px 1px 20px;  background:url(/ver1.0/Content/images/icons/icon_alert.gif) 0 50% no-repeat;}
+div#rpt_persona_abuse .SiteLife_Reported{float:left; padding:1px 0px 1px 20px; background:url(/ver1.0/Content/images/icons/icon_accept.gif) 0 50% no-repeat;}
+a.SiteLife_ReportAbuse{padding:1px 0px 1px 20px;  background:url(/ver1.0/Content/images/icons/icon_alert.gif) 0 50% no-repeat;}
+.SiteLife_Reported{padding:1px 0px 1px 20px; background:url(/ver1.0/Content/images/icons/icon_accept.gif) 0 50% no-repeat;}
+a.SiteLife_Recommend{padding:1px 0px 1px 20px; background:url(/ver1.0/Content/images/icons/arrow_up_rec.gif) 0 50% no-repeat;}
+.SiteLife_Recommended{padding:1px 0px 1px 20px; background:url(/ver1.0/Content/images/icons/icon_accept.gif) 0 50% no-repeat;}
+a.SiteLife_AddToWatchList{padding:1px 0px 1px 20px; background:url(/ver1.0/Content/images/icons/icon_favourites.gif) 0 50% no-repeat;}
+.SiteLife_Watched{padding:1px 0px 1px 20px; background:url(/ver1.0/Content/images/icons/icon_accept.gif) 0 50% no-repeat;}
+a.SiteLife_EmailThis{padding:1px 0px 1px 20px; background:url(/ver1.0/Content/images/icons/icon_email.gif) 0 50% no-repeat;}
+a.SiteLife_RSS{padding:1px 0px 3px 20px; height:20px; background:url(/ver1.0/Content/images/icons/feedIcon.png) 0 50% no-repeat;}
+a.SiteLife_Permalink{padding:1px 0px 1px 20px; background:url(/ver1.0/Content/images/icons/link.png) 0 50% no-repeat; 
+	_background:url(/ver1.0/Content/images/icons/link.gif) 0 50% no-repeat;
+}
+
+
+/********************************** Comments *************************/
+div.Comments_Container{text-align:left; padding-top:5px;  margin:auto; overflow:hidden;}
+	div.Comments_Container table {font-size:11px;}
+	div.Comments_Container img {border:1px solid #000000;}
+	div.Comments_Container table a {color:#000000;}
+div.Comments_SectionHead{font-size:12px; font-weight:bold; padding-bottom:10px;}
+div.Comments_Tabs{height:21px;  min-height:23px; border-bottom:1px solid #cccccc;}
+	div.Comments_Tabs a{float:left;  padding:5px 10px 5px 10px; margin-left:5px; border:1px solid #cccccc; border-bottom:0px; background-color:#cccccc; color:#000000; text-decoration:none; font-family:verdana; font-size:10px;}
+	div.Comments_Tabs a:hover{text-decoration:none; background-color:#B7B7B7;}
+.CommentsTab_On{float:left;  padding:5px 10px 5px 10px; margin-left:5px; border:1px solid #cccccc; border-bottom:0px; background-color:#FFFFFF; color:#000000; text-decoration:none; font-family:verdana; font-size:10px; font-weight:bold;}
+table.Comments_Table{width:100%; table-layout:fixed; margin:10px 0px 10px 0px;}
+tr.Comments_TableAltRowColor{background-color:#f6f6f6;}
+tr.Comments_TableRowColor{}
+td.Comments_UserImage{width:42px; vertical-align:top; text-align:left;}
+    td.Comments_UserImage img{width:32px; height:32px; padding:0;}
+td.Comments_TableRight{vertical-align:top; padding:5px 5px 5px 0px; }
+div.Comments_From{}
+    div.Comments_From a{font-weight:bold;}
+div.Comments_CommentText{padding-top:5px;}
+div.Comments_CommentText img {max-width: 480px; _width: expression(this.offsetWidth > 480 ? "480px" : this.offsetWidth);}
+div.Comments_NestedDate{color:#999999; padding-top:3px; font-size:10px;}
+table.Comments_NestedTable{width:100%; table-layout:fixed; text-align:left; margin-top:3px;}
+	table.Comments_NestedTable img{margin-bottom:-5px; border:0px;}
+td.Comments_NestedRecommend{width: 10em; }
+td.Comments_NestedReport{width: 10em;}
+td.Comments_Permalink{width: 10em;}
+div.Comments_AddHeading{  padding-top:5px; font-weight:bold;}
+span.Comments_MaxLengthText{  padding-top:5px; font-weight:normal; font-style:italic;}
+div.Comments_AddTextarea{padding-top:5px;}
+	div.Comments_AddTextarea textarea{width:98%; height:100px;}
+div.Comments_AddWatchlist{padding-top:5px;}
+div.Comments_Submit{padding:5px 0px 5px 0px;}
+body.Comments_body{width:600px;}
+span.Comments_Error {color:#ff0000; font-weight:normal;}
+div.Comment_NotFound{color:#c00;padding:20px;}
+
+
+/********************* Reviews ************************/
+div.Reviews_MainContainer{text-align:left; padding-top:5px;  margin:auto; overflow:hidden; font-size:11px; width:800px;}
+	div.Reviews_MainContainer a{color:#000000; text-decoration:none;}
+	div.Reviews_MainContainer input{margin-top:5px;}
+	div.Reviews_MainContainer Textarea{margin-top:5px;}
+
+div.Reviews_SectionHead{font-size:14px; font-weight:bold;}
+table.Reviews_Table{width:100%; table-layout:fixed; margin:10px 0px 10px 0px; font-size:11px;}
+tr.Reviews_TableAltRowColor{background-color:#f6f6f6;}
+tr.Reviews_TableRowColor{}
+td.Reviews_UserImage{width:34px; vertical-align:top; padding:5px;}
+	 td.Reviews_UserImage img{width:32px; height:32px; border:0px;}
+td.Reviews_TableRight{vertical-align:top; padding:0px 5px 5px 0px; width:100%; }
+body.ReviewFrame_Body{width:800px;}
+div.Reviews_From{font-size:12px; padding-top:3px;}
+	div.Reviews_From a{font-style:italic; text-decoration:underline;}
+div.Reviews_Headline{font-weight:bold; font-size:14px; padding-top:5px; padding-bottom:10px;}          
+div.Reviews_ReviewText{padding-top:5px;}
+div.Reviews_Pros{padding-top:5px;}
+div.Reviews_Cons{padding-top:5px;}
+span.Reviews_FieldHead{font-weight:bold;}
+table.Reviews_NestedTable{width:100%; table-layout:fixed; text-align:left; margin-top:3px;}
+td.Reviews_NestedDate{color:#999999; padding-top:3px; font-size:10px; width:50%; vertical-align:top;}
+td.Reviews_NestedRecommend{width:25%; vertical-align:top;}
+td.Reviews_NestedReport{width:25%; vertical-align:top;}
+div.Reviews_AddHeading{border-top:2px solid #cccccc; padding:5px 0px 5px 0px; font-weight:bold; font-size:14px;}
+div.Reviews_AddTextarea{padding-top:5px;}
+div.Reviews_Submit{padding:5px 0px 5px 0px;}
+div.Reviews_Page{font-size:14px; padding:0 0 7px 0;}
+div.Reviews_Page a{font-size:14px; padding:0 2px 0 2px;}
+div#Reviews_Container div#Paginator a {text-decoration: underline !important}
+
+/*********************Recommend*******************/
+div.Recommend_Container{font-size:11px; display:inline;}
+div.Recommend_Container a{color:#000000;}
+div.Recommend_Container img{margin-bottom:-3px;}
+
+/*********************Ratings*******************/
+div.Ratings_Container{font-size:12px; padding-top:5px;}
+div.Ratings_YourRating{font-size:12px; padding-top:5px;}
+span.Ratings_Heading{font-weight:bold;}
+
+/******************Discovery Widgets*******************/
+/**** Shared Elements ****/
+div.Summary_Container{font-size:11px; font-family:Verdana; text-align:left;}
+	div.Summary_Container a{color:#000000;}
+div.Summary_Container table *{font-size:11px; font-family:Verdana;}
+	div.Summary_Container table a{color:#000000;}
+
+/***************** Profile Summary ******************/
+table.Summary_ProfileTable{}
+tr.Summary_ProfileAltTRColor{background-color:#f6f6f6;}
+td.Summary_ProfileTableLeft{padding:5px 0px 5px 5px; vertical-align:top;}
+	td.Summary_ProfileTableLeft img{border:1px solid #000000;}
+td.Summary_ProfileTableRight{width:100%; padding:5px 0px 5px 5px;  vertical-align:top;}
+div.Summary_ProfileName{padding:5px 0px 0px 0px;}
+	div.Summary_ProfileName a{font-size:12px; font-weight:bold;}
+div.Summary_ProfileTime{padding-top:3px;}
+
+/******** Article Summary ******/
+.Summary_ArticleAltColor{background-color:#f6f6f6;}
+div.Summary_ArticleTitle{padding:5px;}
+	div.Summary_ArticleTitle a{font-size:12px; font-weight:bold;}
+
+/******** Blog Summary ******/
+table.Summary_BlogTable{width:100%;}
+tr.Summary_BlogAltTRColor{background-color:#f6f6f6;}
+td.Summary_BlogTableLeft{padding:5px 0px 5px 5px; vertical-align:top;}
+	td.Summary_BlogTableLeft img{border:1px solid #000000;}
+td.Summary_BlogTableRight{width:100%; padding:5px 0px 5px 5px;  vertical-align:top;}
+div.Summary_BlogTitle{}
+	div.Summary_BlogTitle a{font-size:12px; font-weight:bold;}
+div.Summary_BlogBy{padding-top:3px;}
+div.Summary_BlogTime{padding-top:3px;}
+
+/******** Forums Summary ******/
+.Summary_ForumsAltColor{background-color:#f6f6f6;}
+div.Summary_ForumsContainer{padding:5px 0px 5px 5px;}
+div.Summary_ForumsTitle{}
+	div.Summary_ForumsTitle a{font-size:12px; font-weight:bold;}
+div.Summary_ForumsIn{padding-top:3px;}
+
+/******** Gallery Summary ******/
+table.Summary_GalleryTable{width:100%; }
+tr.Summary_GalleryAltTRColor{background-color:#f6f6f6;}
+td.Summary_GalleryTableLeft{padding:5px 0px 5px 5px; vertical-align:top;}
+	td.Summary_GalleryTableLeft img{border:1px solid #000000;}
+td.Summary_GalleryTableRight{width:100%; padding:5px 0px 5px 5px;  vertical-align:top;}
+	td.Summary_GalleryTableRight a{font-size:12px; font-weight:bold;}
+
+/******** Photo Summary ******/
+table.Summary_PhotoTable{width:100%; }
+tr.Summary_PhotoAltTRColor{background-color:#f6f6f6;}
+td.Summary_PhotoTableLeft{padding:5px 0px 5px 5px; vertical-align:top;}
+	td.Summary_PhotoTableLeft img{border:1px solid #000000;}
+td.Summary_PhotoTableRight{width:100%; padding:5px 0px 5px 5px;  vertical-align:top;}
+div.Summary_PhotoTitle{font-size:12px;}
+	div.Summary_PhotoTitle a{font-size:12px; font-weight:bold;}
+div.Summary_PhotoIn{padding-top:3px;}
+div.Summary_PhotoBy{padding-top:3px;}
+
+/******************************************Email Form**************************************/
+div.Sitelife_SendMailContainer{padding:10px; color:#000000; font-family:Verdana; font-size:11px; text-align:left;}
+	div.Sitelife_SendMailContainer textarea{margin-top:10px; width:80%;height:100px;}
+div.Sitelife_SendMailHeading{font-size:16px; font-weight:bold;}
+div.Sitelife_SendMailSubject{background-color:#f3f3f3; padding:5px; margin-top:10px;}
+	div.Sitelife_SendMailSubject a{color:#000000; font-weight:bold;}
+div.Sitelife_SendMailSection{padding:10px 0px 10px 0px; border-top:1px Dotted #cccccc;}
+div.Sitelife_SendMailSectionHeading{font-size:12px; font-weight:bold; color:#CC6633;}
+div.Sitelife_SendMailContent{padding-top:10px;}
+	div.Sitelife_SendMailContent input{width:80%; margin-bottom:3px;}
+div.Sitelife_SendMailCheck{padding-top:10px;}
+div.Sitelife_SendMailButton{padding-top:10px;}
+
+/***Email Sent Page**/
+div.Sitelife_SendMailConfirmation{text-align:center; padding: 20px; font-family:Verdana; font-size:11px;}
+div.Sitelife_SendMailConfirmation input{margin-top:10px;}
+
+/***Tag Auto Complete Popup**/
+div.tagscontainer {position:relative;bottom:4px;right:4px;border:1px solid #404040;background:#fff;font-size:85%;overflow:hidden;display:none;}
+div.tagscontainer ul {position:relative;width:100%;padding:5px 0;list-style:none;}
+div.tagscontainer li {padding:0 5px;cursor:default;white-space:nowrap;display:list-item;}
+div.tagscontainer li.highlight {background:#ff0;}
+div.tagsshadow {width:300px;margin:.3em;z-index:5;background:#a0a0a0;} 
+
+/*********ID's for turning sections off************/
+div#Personas_UserGalleryList{}/*use to turn off User Galleries - display:none;*/
+
+/* Multi-Author Blogs - This class is placed on a wrapping div for all multi-author blog pages.  To style the pages differently from personas,
+copy out any used style in personas and place the multi container class infront of the styel
+example:
+
+div.MultiBlog_Container div.BloggerProfile_Container{}
+div.MultiBlog_Container table.BloggerProfile_Table{}
+
+*/
+div.MultiBlog_Container{}
+
+/****************** Site Attribution *******************/
+/* These classes control the appearance of site attribution in their corresponding sections. For example, the comments widget might attribute
+each comment as follows:
+   
+   5/22/2007 12:01:37 PM on SiteName
+
+In order to hide the "on SiteName" content, set "span.Comments_SiteAttribution" as follows:
+
+   span.Comments_SiteAttribution { display:none; }
+*/
+span.ForumDiscussions_SiteAttribution {}
+span.ForumPosts_SiteAttribution {}
+span.BlogPostList_SiteAttribution {}
+span.BlogPostContent_SiteAttribution {}
+span.Photos_SiteAttribution {}
+span.Comments_SiteAttribution {}
+span.Reviews_SiteAttribution {}
+span.PersonaRecentActivity_SiteAttribution {}
+span.PersonaMessages_SiteAttribution {}
+span.ArticleSummary_SiteAttribution {}
+span.ForumDiscussionSummary_SiteAttribution {}
+span.PhotoSummary_SiteAttribution {}
+span.PostSummary_SiteAttribution {}
+
+
+
+/****************** External Strings Debug *******************/
+span.DebugStrings{ border: solid 2px green;}
+
+
+/****************** Pretty looking popup dialogs *************/
+.SiteLife_Dialog .background
+{
+	position:fixed;
+	top: 0;
+	left: 0;
+	height: 0;
+	width: 100%;
+	height: 100%;
+}
+.SiteLife_Dialog .contents 
+{
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	bottom: 16px;
+	right: 16px;
+	padding-right: 5px;
+}
+
+.SiteLife_Dialog .tl, .SiteLife_Dialog .tr, .SiteLife_Dialog .bl, .SiteLife_Dialog .br
+{
+	background-image: url(/ver1.0/Content/images/dialog/corners.png);
+	_background-image: url(/ver1.0/Content/images/dialog/corners.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+} 
+
+.SiteLife_Dialog .tl 
+{
+	background-position: 0px 0px;	
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 16px;
+}
+
+.SiteLife_Dialog .tr 
+{
+	background-position: -16px 0px;	
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 16px;
+}
+
+.SiteLife_Dialog .bl 
+{
+	background-position: 0px -16px;	
+	bottom: 0;
+	left: 0;
+	width: 16px;
+	height: 16px;
+}
+
+.SiteLife_Dialog .br 
+{
+	background-position: -16px -16px;	
+	bottom: 0;
+	right: 0;
+	width: 16px;
+	height: 16px;
+}
+
+.SiteLife_Dialog .tc, .SiteLife_Dialog .bc 
+{
+	background-image: url(/ver1.0/Content/images/dialog/top_bottom.png);
+	_background-image: url(/ver1.0/Content/images/dialog/top_bottom.gif);
+	background-repeat: repeat-x;
+	position: absolute;
+}
+
+.SiteLife_Dialog .tc 
+{
+	background-position: 0px 0px;
+	top: 0;
+	left: 16px;
+	right: 16px;
+	width: auto;
+	height: 16px;
+}
+
+.SiteLife_Dialog .bc 
+{
+	background-position: 0px -16px;
+	bottom: 0;
+	left: 16px;
+	right: 16px;
+	width: auto;
+	height: 16px;
+}
+
+.SiteLife_Dialog .ml, .SiteLife_Dialog .mr 
+{
+	background-image: url(/ver1.0/Content/images/dialog/sides.png);
+	_background-image: url(/ver1.0/Content/images/dialog/sides.gif);
+	background-repeat: repeat-y;
+	position: absolute;	
+}
+
+.SiteLife_Dialog .ml 
+{
+	background-position: 0px 0px;
+	top: 16px;
+	bottom: 16px;
+	left: 0;
+	width: 16px;
+}
+.SiteLife_Dialog .mr 
+{
+	background-position: -16px 0px;
+	top: 16px;
+	bottom: 16px;
+	right: 0;
+	width: 16px;
+}
+
+a.PersonaStyle_FacebookIcon {float: right; background: url('/ver1.0/Content/images/icons/facebook.gif') no-repeat; display:block; height: 16px; width: 16px; line-height: 16px; text-decoration:none; margin-top: -1px;}
+div.PersonaStyle_FacebookHelpDialog div.SiteLife_Dialog
+{
+	width: 350px;
+	height: 250px;
+	z-index: 1000;
+}
+
+div.PersonaStyle_FacebookHelpDialog {display: none;}
+div.PersonaStyle_FacebookHelpDialog h3 {font-size: 12pt; margin-top: 0;}
+
+div.PersonaStyle_FacebookHelpDialog .contents 
+{
+	background-color: White;
+	_width: 318px;
+	_height: 218px;
+}
+div.PersonaStyle_FacebookHelpDialog .contents .personaRssUrlContainer
+{
+	width: 190px;
+}
+
+div.PersonaStyle_FacebookHelpDialog .contents .personaRssCopyButton
+{
+	margin: 0 0 -6px 3px;
+}
+
+div.PersonaStyle_FacebookHelpDialog .Dialog_Right_Arrow_Top 
+{
+	background-image: url(/ver1.0/Content/images/dialog/callout_Top.png);
+	_background-image: url(/ver1.0/Content/images/dialog/callout_Top.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	width: 13px;
+	height: 10px;
+	position: absolute;
+	bottom:50%;
+	right: -8px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	/*IE6 hack...*/
+	_display: none;
+}
+
+div.PersonaStyle_FacebookHelpDialog .Dialog_Right_Arrow_Bottom 
+{
+	background-image: url(/ver1.0/Content/images/dialog/callout_Bottom.png);
+	_background-image: url(/ver1.0/Content/images/dialog/callout_Bottom.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	width: 13px;
+	height: 10px;
+	position: absolute;
+	top: 50%;
+	right: -8px;
+	padding: 0;
+	margin: 0;
+	border: none;
+	/*IE6 hack...*/
+	_display: none;
+}
+
+/* IE6 hacks */
+div.PersonaStyle_FacebookHelpDialog .SiteLife_Dialog .tc, div.PersonaStyle_FacebookHelpDialog .SiteLife_Dialog .bc
+{
+	_width: 318px;
+}
+
+div.PersonaStyle_FacebookHelpDialog .SiteLife_Dialog .ml, div.PersonaStyle_FacebookHelpDialog .SiteLife_Dialog .mr
+{
+	_height: 218px;
+}
+
+div.PersonaStyle_FacebookHelpDialog .SiteLife_Dialog .closeButton 
+{
+	background-image: url(/ver1.0/Content/images/dialog/close.gif);
+	width: 14px;
+	height: 14px;
+	padding: 0;
+	margin: 0;
+	top: 10px;
+	right: 12px;
+	position: absolute;
+}
+
+
+/* Facebook Connect */
+.PersonaHeader_FacebookConnect
+{
+	padding: 5px; padding-bottom: 0px;
+}
+.PersonaHeader_FacebookConnect_InviteButton
+{
+	background-image: url(/ver1.0/Content/images/fb_invite.gif);
+	width: 119px;
+	height: 23px;
+	padding: 0;
+	margin: 0;
+	display:none;
+}
+
+.PersonaHeader_FacebookConnect_ConnectButton
+{
+	/* NOTE: According to Facebook's terms of service, we MUST use one of their images here. */
+	/* http://wiki.developers.facebook.com/index.php/Facebook_Connect_Login_Buttons for options   */
+	background-image: url(http://static.ak.fbcdn.net/images/fbconnect/login-buttons/connect_light_medium_short.gif);
+	width: 89px;
+	height: 21px;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.slFacebookConnectButtonInfo { color: #666; margin: 5px 0px 20px 5px;}
+
+.Friends_List .FacebookIndicator 
+{
+	display: inline-block;
+	background: url('/ver1.0/Content/images/icons/facebook.gif') no-repeat; 
+	height: 16px; 
+	width: 16px; 
+	line-height: 16px; 
+	text-decoration:none; 
+	clear: none;
+	position: relative;
+	top: 1px;
+}
+
+#PersonaBadges_Container { font-family: inherit; font-size: 11px; color: #000; }
+    #PersonaBadges_Container .slUserBadgesHeader { float: left; padding-right: 5px; line-height: 16px; height: 16px; display: block; font-weight: bold; }
+    #PersonaBadges_Container .slUserBadges { margin-left: 5em; }
+    #PersonaBadges_Container .slUserLeaderboard { clear: both; font-weight: bold; padding-top: 10px; }
+    #PersonaBadges_Container .slUserLeaderboardName { float: left; padding-right: 5px; }
+    #PersonaBadges_Container .slUserLeaderboardRank { float: left; padding-right: 5px; }
+
+.slTwitterAvatar { border: none; padding: 0;}
+.slTwitterAvatar img { width:48px; height: 48px; }
+.slTwitterStatus { border: none; margin-left: 48px; padding: 2px; }
+
+.PersonaConnections_TwitterConnect_ConnectButton
+{
+  display: inline-block;
+  background: url('/ver1.0/Content/images/icons/twitter_connect.gif') no-repeat;
+  height: 24px;
+  width: 86px;
+  padding: 0;
+  margin: 6px 0px 2px 5px;
+  display: block;
+}
+.slSocialConnectButtonInfo { color: #666; margin: 5px 0px 20px 5px;}
+
+.PersonaConnections_SocialSaveButton { margin-top: 10px; }
+div.PersonaStyle_TwitterContainer {padding-bottom: 0;}
+.PersonaStyle_TwitterFriendsListHeading { background-color: #E4E3E3; font-size: 12px; font-weight: bold; padding: 3px 0 3px 5px; text-align: center; }
+/* disabled due to the fact that we haven't actually implemented it in our comments widgets yet... */
+.PersonaConnections_TweetMyComments { display: block; }
+.PersonaStyle_TwitterPrefs { padding: 5px; }
+
+.PersonaStyle_ItemContainer form { margin: 0; }
+.PersonaConnections_TwitterAccountStatus { font-size:15px; font-weight:lighter }
+.PersonaConnections_TwitterConnect_InviteButton
+{
+    display: inline-block;
+    background: url('/ver1.0/Content/images/icons/twitter_invite.gif') no-repeat;
+    height: 24px;
+    width: 116px;
+    padding: 0;
+    margin: -15px 0px 20px 5px;
+    display: block;  
+}
+
+.TwitterFriendsListDisplay { width:23%; float:right; padding:0px 0px 0px 5px; }
+.TwitterFriendsListAlt { background: #E4E3E3; }
+.TwitterFriendsCheckbox { width: 25px; float: left; margin-top: 9px;}
+.TwitterFriendsAvatarTiny img { width:34px; height: 34px; }
+.TwitterFriendsDisplayName { font-size: 13px; }
+.TwitterFriendsStatusName { font-size: 10px; }
+.TwitterAccountCheckmark 
+{
+  display: inline-block;
+    background: url('/ver1.0/Content/images/icons/tick.png') no-repeat;
+    height: 24px;
+    padding: 0;
+    margin: 6px 0px 25px 5px;
+    display: block;  
+  
+}
+.TwitterAccountSuccessMsg { margin-left: 30px; }
+.TwitterFriendAddButton { margin-left: 10px; margin-bottom: 5px; margin-top: 10px;}
+
+/* MODAL */
+
+.slSocialModalBg 
+{   position: fixed; left: 0; top: 0;width: 100%; height: 100%; z-index: 9;background-color:#333; opacity: 0.60; filter: alpha(opacity=60);
+    /* IE6 */ 
+    _position:absolute;
+    _left: expression(ignoreMe = document.body.scrollLeft + "px");
+    _top: expression(ignoreMe = document.body.scrollTop + "px");
+    _width: expression(document.body.clientWidth + "px");
+    _height: expression(document.body.clientHeight + "px");
+ }
+ 
+.slSocialModalTransparentBg 
+{   position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 9; background-color:#333; opacity: 0.0; filter: alpha(opacity=0);
+	  /* IE6 */ 
+	  _position:absolute;
+	  _left: expression(ignoreMe = document.body.scrollLeft + "px");
+	  _top: expression(ignoreMe = document.body.scrollTop + "px");
+	  _width: expression(document.body.clientWidth + "px");
+	  _height: expression(document.body.clientHeight + "px");
+ }
+ 
+.slSocialModal { position: absolute; height: 400px; width: 750px; z-index: 10; }
+    .slSocialModal .slSocialModalTL { background: url('/ver1.0/Content/images/Modal_Top.gif') no-repeat left top; height: 8px; margin-right: 8px; font-size: 0; _margin-right: 0px; _float: left; _width: 736px; }
+    .slSocialModal .slSocialModalTR { background: url('/ver1.0/Content/images/Modal_Top_Right.gif') no-repeat right top; height: 8px; float:right; width: 14px; font-size: 0; }
+    .slSocialModal .slSocialModalBL { background: url('/ver1.0/Content/images/Modal_Bottom.gif') no-repeat left bottom; height: 8px; margin-right: 8px; font-size: 0; _margin-right: 0px; _float: left; _width: 735px; }
+    .slSocialModal .slSocialModalBR { background: url('/ver1.0/Content/images/Modal_Bottom_Right.gif') no-repeat left bottom; height: 8px; float:right; width: 15px; font-size: 0;}
+    .slSocialModal .slSocialModalCL { background: url('/ver1.0/Content/images/Modal_Content_Left.gif') repeat-y left top; }
+    .slSocialModal .slSocialModalCR { background: #fff url('/ver1.0/Content/images/Modal_Content_Right.gif') repeat-y right top; margin-left: 3px; padding: 10px }
+    .slSocialModal .slSocialModalHeader { height: 16px; padding-bottom: 5px; border-bottom: 1px solid #ccc; margin-bottom: 5px;}
+        .slSocialModal .slSocialModalHeader .slSocialModalTitle { font-size: 16px; font-weight: bold; text-align: left; }
+        .slSocialModal .slSocialModalHeader .slSocialModalContent { font-size: 11px; }
+    
+
+.slSocialModalLoading { background: url('/ver1.0/Content/images/ajax-loader.gif') no-repeat left center; height: 22px; line-height: 22px; padding-left: 25px; }
+
+.slSocialButtons { margin-top: 20px; height: 32px; }
+  .slSocialButtons .slSocialButtonCancel { display:block; float:left; line-height: 30px; font-size: 14px; margin-left: 20px; }
+
+.slSocialInviteButton { background: url('/ver1.0/Content/images/Button1.gif') no-repeat; display:block; cursor:pointer; float:left; height: 32px; line-height: 32px; text-decoration:none; padding: 0 0 0 10px; font-size: 13px; font-weight: bold; }
+	.slSocialInviteButton span { display:block; }
+	.slSocialInviteButton .slSocialInviteButton_Right { white-space:nowrap; background: url('/ver1.0/Content/images/Button1_Right.gif') no-repeat top right; padding-right: 10px; height: 100%; text-align:center; width: 80px; }
+	 
+
+.slSocialFormField { margin: 8px 0; }
+  .slSocialFormField .slSocialFormInputText { border: 1px solid #999; height: 22px; padding: 5px 0 0 5px; font-size: 14px; width: 720px; color: #666} 
+  .slSocialFormField textarea.slSocialFormInputText { height: 75px;}
+  
+.slSocialInviteDialogTitle { margin: 0 0 5px; color: #333333; font-size: 18px; font-weight: bold; }
+.slSocialDialogSuccessText {border: 1px solid #9ED980; background: #D1EFC2; color: #529214; display:none; padding: 5px 10px; }
+.slSocialDialogErrorText {border: 1px solid #FBC2C4; background: #FBE3E4; color: #D12F19; display:none; padding: 5px 10px; }
+.ConnectorStyle_ItemContainer { border: 1px solid #E4E3E3; margin-top:10px; padding-bottom:5px; margin-right: 190px; }
+.ConnectorStylePluck_FooterLink{text-align:right; padding:10px 10px 10px 0px; font-size:11px; margin-right: 170px;}
+.slCommentsFrame_TweetMyComments { font-family: verdana; font-size: 12px; }
+
+/* persona header and persona are usually right next to each other.  Make 404 message only visible once */
+#personaHDest .personaUser404{
+	display: none;
+}
+.PersonaStyle_YahooPrefs { padding: 5px; }
+.PersonaConnections_YahooAccountStatus { font-size:15px; font-weight:lighter }
+.YahooAccountCheckmark 
+{
+  display: inline-block;
+    background: url('/ver1.0/Content/images/icons/tick.png') no-repeat;
+    height: 24px;
+    padding: 0;
+    margin: 6px 0px 25px 5px;
+    display: block;  
+  
+}
+
+.PersonaConnections_YahooInviteButton
+{
+    display: inline-block;
+    background: url('/ver1.0/Content/images/icons/yahoo-invite-friends.gif') no-repeat;
+    height: 26px;
+    width: 123px;
+    padding: 0;
+    margin: -15px 0px 20px 5px;
+    display: block;  
+}
+
+.PersonaConnections_YahooConnectButton
+{
+  display: inline-block;
+  background: url('/ver1.0/Content/images/icons/yahoo-connect.gif') no-repeat;
+  height: 27px;
+  width: 96px;
+  padding: 0;
+  margin: 6px 0px 2px 5px;
+  display: block;
+}
+.YahooAccountSuccessMsg { margin-left: 30px; }
+
+.PersonaConnections_YahooMyComments { display: block; }
+.slCommentsFrame_YahooMyComments { font-family: verdana; font-size: 12px; }
+
+.PersonaStyle_LinkedInPrefs { padding: 5px; }
+.PersonaConnections_LinkedInAccountStatus { font-size:15px; font-weight:lighter }
+.LinkedInAccountCheckmark 
+{
+  display: inline-block;
+    background: url('/ver1.0/Content/images/icons/tick.png') no-repeat;
+    height: 24px;
+    padding: 0;
+    margin: 6px 0px 25px 5px;
+    display: block;  
+  
+}
+
+.PersonaConnections_LinkedInConnectButton
+{
+  display: inline-block;
+  background: url('/ver1.0/Content/images/icons/LinkedInConnect.png') no-repeat;
+  height: 27px;
+  width: 96px;
+  padding: 0;
+  margin: 6px 0px 2px 5px;
+  display: block;
+}
+
+.PersonaConnections_LinkedInInviteButton
+{
+    display: inline-block;
+    background: url('/ver1.0/Content/images/icons/LinkedInInviteFriends.png') no-repeat;
+    height: 26px;
+    width: 123px;
+    padding: 0;
+    margin: -15px 0px 20px 5px;
+    display: block;  
+}
+
+.LinkedInAccountSuccessMsg { margin-left: 30px; }
+.PersonaConnections_LinkedInMyComments { display: block; }
+.slCommentsFrame_LinkedInMyComments { font-family: verdana; font-size: 12px; }
+
+

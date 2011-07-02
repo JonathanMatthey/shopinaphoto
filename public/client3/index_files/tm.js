@@ -1,0 +1,5 @@
+
+var tm;if(!tm)tm={};tm.fontresizer=function(wrapper,resizer){var COOKIE_NAME="tmArticleFont",DURATION_SEC=10*60,cookie="",fontSize=1,maxSize=2.5,minSize=0.75,step=0.25;cookie=tm.getCookieVal(COOKIE_NAME);if(cookie!=null&&cookie!=""){fontSize=parseFloat(cookie);}
+if(resizer=="up"&&fontSize<maxSize){fontSize=fontSize+step;}
+if(resizer=="down"&&fontSize>minSize){fontSize=fontSize-step;}
+wrapper.css({"font-size":fontSize+"em"});tm.setCookieVal(COOKIE_NAME,fontSize,DURATION_SEC,"/");};$(function(){var article=$(".article"),articleBody=article.find(".article-body"),addThisWidget="http://s7.addthis.com/js/250/addthis_widget.js#pubid=mirror&domready=1&async=true";$.getScript(addThisWidget,function(){addthis.init();addthis.toolbox(".share-link");});tm.fontresizer(articleBody);article.find(".down").bind("click",function(){tm.fontresizer(articleBody,"down");});article.find(".up").bind("click",function(){tm.fontresizer(articleBody,"up");});});
