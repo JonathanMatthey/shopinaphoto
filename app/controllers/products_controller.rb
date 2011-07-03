@@ -14,11 +14,11 @@ class ProductsController < ApplicationController
     @product = Product.new(params[:product])
     respond_to do |format|
       if @product.save
-        format.html { redirect_to('/',
+        format.html { redirect_to('/admin',
                       :notice => 'Product was successfully created.') }
       else
         flash[:error] = @product.errors.full_messages
-        format.html { redirect_to '/'}
+        format.html { redirect_to '/admin'}
       end
     end
   end
