@@ -1,10 +1,6 @@
 <div class="image_row clearfix">
 	<div class="image_title">
-		<% unless image.person.nil? %>
 			<%= image.person  %> - <%= image.created_at.strftime("%d/%m/%Y")  %>
-		<% else %>
-			Set Person
-		<% end %>
 	</div>
 	<%= image_tag(image.url, :class=>"photo") %>
 	<ul class="products">
@@ -30,8 +26,12 @@
 		<% else %>
 		<li><h3>Style picks coming shortly...</h3><li>
 		<% end %>
+
+	</ul>
+	
+<div class="add_product">
 		
-		ADD PRODUCT
+		<h3>ADD PRODUCT</h3>
 		  <%= form_for :product, @product, :url => { :controller => "products", :action => "create" }, :html => {:class => "nifty_form"} do |f| %>
 		    <% if @product.errors.any? %>
 		    <div id="errorExplanation">
@@ -43,23 +43,25 @@
 		      </ul>
 		    </div>
 		    <% end %>
-
+			<div class="col1">
 		    <%= f.label :product_name %>:
 		    <%= f.text_field :name %>
+		<br/>
+		    <%= f.label :product_url %>:
+		    <%= f.text_field :url %>
+			</div>
+			<div class="col2">
 		    <%= f.label :price %>:
 		    <%= f.text_field :price %>
-		    <%= f.label :url %>:
-		    <%= f.text_field :url %>
+		<br/>
 		    <%= f.label :image_url %>:
 		    <%= f.text_field :image_url %>
-
+			</div>
 
 		    <%= f.hidden_field :image_id, :value =>  image.id  %>
 
 		    <%= submit_tag "Create" %>
 		  <% end %> <!-- end form_for product -->
-		
-	</ul>
 	
-
+</div>
 </div>

@@ -400,3 +400,24 @@ div.image_title{
 #sortbar a{
 	padding-left:10px;
 }
+div.add_product{
+	background-color:#eee;
+	display:block;
+	float:left;
+	padding:5px;
+	border-top:2px solid #ccc;
+	border-bottom:4px solid #ccc;
+	margin:10px 0;
+	font-size:8pt;
+	width:800px;
+}
+
+div.add_product .col1,div.add_product .col2{
+	width:300px;
+	display:block;
+	float:left;
+	text-align:right;
+	
+}
+	
+		
