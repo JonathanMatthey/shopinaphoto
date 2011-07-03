@@ -2,9 +2,12 @@ Instantblogstore::Application.routes.draw do
   get "image/create"
 
   get "home/index"
-
+  
+  match "admin" => "admin#index"
+  
   resources :products
   resources :images
+  resources :persons
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

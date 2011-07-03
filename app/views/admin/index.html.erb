@@ -1,0 +1,12 @@
+
+<div id="sortbar">SORT: <a href="#">ALPHABETICALLY</a> <a href="#">BY DATE</a> <a href="#">BY TOTAL VIEWS</a></div>
+
+<% @images.each do |image| %>
+    <%= render :partial => "image_row", :locals => {:image => image, :products => image.products} %>
+<% end %>
+
+<hr/>
+<br/>
+<br/>
+<br/>
+
