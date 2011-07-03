@@ -1,0 +1,32 @@
+<div class="image_row clearfix">
+	<div class="image_title">
+		<%= image.person  %> - <%= image.created_at.strftime("%d/%m/%Y")  %>
+	</div>
+	<%= image_tag(image.url, :class=>"photo") %>
+	<ul class="products">
+
+		<% unless image.products.empty? %>
+		<h3>Style Picks</h3>
+	  		<% image.products.each do |product| %>
+			<li class="clearfix">
+
+			    <a target="_blank" href="<%= product.url %>"><%= image_tag(product.image_url, :class=>"product-photo") %></a>
+			    <ul class="product-desc">
+					<li><%= product.name %></li>
+					<li><span class="price">$<%= product.price %></span> - 
+						<span class="website">
+						<a target="_blank" href="<%= product.url %>"><%= product.website || product.url.match(/^(?:f|ht)tp(?:s)?\:\/\/([^\/]+)/i)[1] %></a>
+					    
+					</span></li>
+					
+				</ul>
+			</li>
+
+			  <% end %>
+		<% else %>
+		<li><h3>Style picks coming shortly...</h3><li>
+		<% end %>
+	</ul>
+	
+
+</div>

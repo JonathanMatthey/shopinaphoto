@@ -1,4 +1,23 @@
-
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
 /**
  * HTML5 ✰ Boilerplate
  *
@@ -64,7 +83,7 @@ input, select { vertical-align: middle; }
  * Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
  */
 
-body { font:13px/1.231 sans-serif; *font-size:small; } /* Hack retained to preserve specificity */
+body { font:15px/1.231 sans-serif; *font-size:small; } /* Hack retained to preserve specificity */
 select, input, textarea, button { font:99% sans-serif; }
 
 /* Normalize monospace sizing:
@@ -269,7 +288,7 @@ a:hover { color: #036; }
 }
 #header h1{
 	font-family:verdana;
-	padding:0;
+	padding:5px;
 	margin:0;
 	color:white;
 	font-size:14pt;
@@ -279,4 +298,105 @@ a:hover { color: #036; }
 	color:white;
 
 }
+.photo{
+	float:left;
+	width:500px;
+}
+ul.products{
+	float:left;
+	padding-left:5px;
+	text-transform:uppercase;
+	margin:0;
+}
 
+.products li {
+   list-style: none;
+	display:block;
+	padding-bottom:5px;
+	width:250px;
+}
+.products h3{
+	color:#aaa;
+	padding-bottom:5px;
+	
+}
+.products ul.product-desc{
+    display: block;
+    float: left;
+    margin: 0;
+    padding-left: 5px;
+	font-size:9pt;
+	width:90px;
+}
+.products ul.product-desc li span.price{
+	font-weight:bold;
+}
+
+.products ul.product-desc li span.website{
+	font-weight:bold;
+	color:#444;
+	text-transform:lowercase;
+	
+}
+
+.products p.price{
+}
+div.product{
+	float:left;
+	width:300px;
+	display:block;
+	padding-bottom:5px;
+}
+img.product-photo{
+	max-width:150px;
+	border:1px solid #ccc;
+	float:left;
+}
+
+#main {
+	
+  margin: 0 auto;
+  width: 800px;
+	text-align: left;
+
+}
+
+body
+{
+	text-align: center;
+}
+
+div#container
+{
+}
+
+div.image_row{
+	
+	border-bottom: 1px solid black;
+	margin-bottom:50px;
+	padding-bottom:50px;
+	width:800px;
+	
+}
+div.image_title{
+	font-size:14pt;
+	padding: 8px 0 5px 0;
+	font-weight:bold;
+	
+	
+}
+
+#sortbar{
+	background-color:#eee;
+	font-size:10pt;
+	font-weight:bold;
+	padding:5px;
+	text-transform:lowercase;
+	text-align:right;
+	
+	
+}
+
+#sortbar a{
+	padding-left:10px;
+}

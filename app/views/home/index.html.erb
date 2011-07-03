@@ -1,62 +1,8 @@
 
+<div id="sortbar">SORT: <a href="#">ALPHABETICALLY</a> <a href="#">BY DATE</a> <a href="#">BY TOTAL VIEWS</a></div>
 
-
-  <div style="border-top:4px solid #444; border-bottom:2px solid #ccc; background-color:#eee;display:block;padding:10px;">
-
-ADD NEW PHOTO
-<%= form_for :image, @image, :url => { :controller => "images", :action => "create" }, :html => {:class => "nifty_form"} do |f| %>
-
-
-  <%= f.label :image_url%>:
-  <%= f.text_field :url %>
-
-  <%= submit_tag "Add Image" %>
-<% end %> <!-- end form_for product -->
-
-
-  </div>
 <% @images.each do |image| %>
-  
-  <%= image_tag(image.url) %>
-  
-  <% image.products.each do |product| %>
-    
-    <a target="_blank" href="<%= product.url %>"><%= image_tag(product.image_url) %></a>
-    <%= product.name %>
-    $<%= product.price %>
-
-  <% end %>
-  
-  <div style="border-bottom:4px solid #444; border-top:2px solid #ccc; background-color:#eee;display:block;padding:10px;">
-    
-ADD PRODUCT
-  <%= form_for :product, @product, :url => { :controller => "products", :action => "create" }, :html => {:class => "nifty_form"} do |f| %>
-    <% if @product.errors.any? %>
-    <div id="errorExplanation">
-      <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
-      <ul>
-      <% @product.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-    <% end %>
-
-    <%= f.label :product_name %>:
-    <%= f.text_field :name %>
-    <%= f.label :price %>:
-    <%= f.text_field :price %>
-    <%= f.label :url %>:
-    <%= f.text_field :url %>
-    <%= f.label :image_url %>:
-    <%= f.text_field :image_url %>
-
-
-    <%= f.hidden_field :image_id, :value =>  image.id  %>
-
-    <%= submit_tag "Create" %>
-  <% end %> <!-- end form_for product -->
-</div>
+    <%= render :partial => "image_w_products", :locals => {:image => image, :products => image.products} %>
 <% end %>
 
 <hr/>
