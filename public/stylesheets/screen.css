@@ -324,6 +324,22 @@ a:hover { color: #036; }
 	color:white;
 	font-size:14pt;
 	width:400px;
+	display:block;
+	float:left;
+}	
+	
+span#site-desc{
+    color: #666;
+    display: block;
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+    padding: 8px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 48%;
+font-size:14pt;
+	
 }
 #header #description{
 	color:white;
