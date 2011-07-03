@@ -621,7 +621,10 @@ $(document).ready(function() {
 				for (var store_index in stores){
 					var img_seq = stores[store_index].seq;
 					
+					
 					var img = $(img_selector).eq(img_seq);
+					if (img!== null)
+					{
 					console.log(img);
 					console.log(img.css('borderTopWidth'));
 					
@@ -659,7 +662,7 @@ $(document).ready(function() {
 							'</span></a></div>');
 						}
 						
-					}
+						}
 					// on mouse over - show its shop
 					$('#ss_btn_'+store_index).mouseover(function() {
 						// hide all other stores
@@ -667,14 +670,14 @@ $(document).ready(function() {
 						// slide this store down
 						$('#ss_store_'+$(this).attr('rel')).slideDown();
 					});
-					
-				};
+				};// end of if img is undefined
+				};// end of for each store
 
 		
 				// build store 
 				// add event to star
 				// 
-			  }
+			  }// end of success method
 		});
 		
 		// plan:
