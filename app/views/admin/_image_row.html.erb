@@ -18,7 +18,7 @@
 						<a target="_blank" href="<%= product.url %>"><%= product.website || product.url.match(/^(?:f|ht)tp(?:s)?\:\/\/([^\/]+)/i)[1] %></a>
 					    
 					</span></li>
-					
+					<li><%= button_to 'Delete', product_path(product.id), :confirm => 'Are you sure?', :method => :delete %>        </li>
 				</ul>
 			</li>
 
@@ -31,7 +31,7 @@
 	
 <div class="add_product">
 		
-		<h3>ADD PRODUCT</h3>
+		<h3>ADD NEW PRODUCT FOR THIS STYLE</h3>
 		  <%= form_for :product, @product, :url => { :controller => "products", :action => "create" }, :html => {:class => "nifty_form"} do |f| %>
 		    <% if @product.errors.any? %>
 		    <div id="errorExplanation">

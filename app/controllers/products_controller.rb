@@ -32,6 +32,16 @@ class ProductsController < ApplicationController
     end
   end
   
+  def destroy
+    if Product.destroy(params[:id])
+      redirect_to('/admin', :notice => 'Product was successfully deleted.') 
+    else
+      flash[:error] = "There was a problem trying to delete that product."
+      redirect_to('/admin') 
+      
+    end
+  end
+  
   # 
   # def create
   #   @post = Post.new(params[:post])

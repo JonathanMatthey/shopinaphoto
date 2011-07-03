@@ -1,3 +1,34 @@
+
+.info, .success, .warning, .error, .validation {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:13px;
+}
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+/*    background-image: url('info.png');
+*/}
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+/*    background-image:url('success.png');
+*/}
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+/*    background-image: url('warning.png');
+*/}
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+/*    background-image: url('error.png');
+*/}
+
 .clearfix:after {
 	content: ".";
 	display: block;
@@ -401,15 +432,19 @@ div.image_title{
 	padding-left:10px;
 }
 div.add_product{
-	background-color:#eee;
 	display:block;
 	float:left;
 	padding:5px;
-	border-top:2px solid #ccc;
-	border-bottom:4px solid #ccc;
 	margin:10px 0;
 	font-size:8pt;
 	width:800px;
+	background-color: #FBF9EA;
+    border: 1px solid #E2E1D5;
+    border-bottom: 5px solid #E2E1D5;
+}
+
+div.add_product h3{
+	padding: 0 0 5px 0;
 }
 
 div.add_product .col1,div.add_product .col2{
@@ -417,7 +452,12 @@ div.add_product .col1,div.add_product .col2{
 	display:block;
 	float:left;
 	text-align:right;
+	padding-right:50px;
 	
 }
 	
+	div.add_product input{
+		margin-bottom:3px;
+
+	}
 		
