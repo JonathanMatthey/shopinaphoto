@@ -329,7 +329,7 @@ a:hover { color: #036; }
 }	
 	
 span#site-desc{
-    color: #666;
+    color: black;
     display: block;
     float: left;
     font-style: italic;
