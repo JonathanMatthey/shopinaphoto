@@ -509,7 +509,7 @@ if (location.host.indexOf('localhost') > -1){
 	stylespotter_host = 'http://localhost:3000/';
 }
 else{
-	stylespotter_host = 'http://floating-waterfall-888.heroku.com/';
+	stylespotter_host = 'http://stylespotter.heroku.com/';
 }
 
 function getXY(img) {
